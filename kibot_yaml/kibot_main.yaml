@@ -590,8 +590,8 @@ definitions:
 
   COLOR_THEME: Altium_Theme
   SHEET_WKS: ${KIPRJMOD}/Templates/KDT_Template_PCB_GIT_A4.kicad_wks
-  FAB_SCALING: 0.5
-  ASSEMBLY_SCALING: 0.5
+  FAB_SCALING: 1
+  ASSEMBLY_SCALING: 1
 
   # References to exclude from testpoint highlighting ==========================
   
