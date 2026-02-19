@@ -1,0 +1,637 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "Photon2"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 46.228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Photon 2"
+			(at 0 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Photon2:PHOTON2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.particle.io/reference/datasheets/wi-fi/photon-2-datasheet/"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PHOTON 2 [X1]"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Photon2_0_1"
+			(rectangle
+				(start -10.16 43.18)
+				(end 10.16 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Photon2_1_1"
+			(pin input inverted
+				(at -12.7 40.64 0)
+				(length 2.54)
+				(name "RST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CHIP_EN" input inverted)
+			)
+			(pin power_out line
+				(at -12.7 38.1 0)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 35.56 0)
+				(length 2.54)
+				(name "MODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "PA[4]" bidirectional line)
+			)
+			(pin power_in line
+				(at -12.7 33.02 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 30.48 0)
+				(length 2.54)
+				(name "A0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC_4" input line)
+				(alternate "D11" bidirectional line)
+				(alternate "PB[1]" bidirectional line)
+			)
+			(pin input line
+				(at -12.7 27.94 0)
+				(length 2.54)
+				(name "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC_5" input line)
+				(alternate "D12" bidirectional line)
+				(alternate "PB[2]" bidirectional line)
+			)
+			(pin input line
+				(at -12.7 25.4 0)
+				(length 2.54)
+				(name "A2~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC_3" input line)
+				(alternate "D13" bidirectional line)
+				(alternate "PB[7]" bidirectional line)
+			)
+			(pin input line
+				(at -12.7 22.86 0)
+				(length 2.54)
+				(name "A5~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC_0" input line)
+				(alternate "D14" bidirectional line)
+				(alternate "PB[4]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -12.7 20.32 0)
+				(length 2.54)
+				(name "S4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "D19" bidirectional line)
+				(alternate "PA[0]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -12.7 17.78 0)
+				(length 2.54)
+				(name "S3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "D18" bidirectional line)
+				(alternate "PB[26]" bidirectional line)
+				(alternate "SPI{SS}" output line)
+			)
+			(pin output clock
+				(at -12.7 15.24 0)
+				(length 2.54)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "D17" bidirectional line)
+				(alternate "PB[26]" bidirectional line)
+				(alternate "S3{RTS}" output line)
+				(alternate "SPI{SCK}" output clock)
+			)
+			(pin output line
+				(at -12.7 12.7 0)
+				(length 2.54)
+				(name "MO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "D15" bidirectional line)
+				(alternate "PA[12]" bidirectional line)
+				(alternate "S3{TX}" output line)
+				(alternate "SPI{MOSI}" output line)
+			)
+			(pin input line
+				(at -12.7 10.16 0)
+				(length 2.54)
+				(name "MI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "D16" bidirectional line)
+				(alternate "PA[13]" bidirectional line)
+				(alternate "S3{RX}" input line)
+				(alternate "SPI{MISO}" input line)
+			)
+			(pin input line
+				(at -12.7 7.62 0)
+				(length 2.54)
+				(name "RX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "D9" bidirectional line)
+				(alternate "PA[8]" bidirectional line)
+				(alternate "S1{RX}" input line)
+			)
+			(pin output line
+				(at -12.7 5.08 0)
+				(length 2.54)
+				(name "TX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "D8" bidirectional line)
+				(alternate "PA[7]" bidirectional line)
+				(alternate "S1{TX}" output line)
+			)
+			(pin no_connect line
+				(at -12.7 2.54 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.7 30.48 180)
+				(length 2.54)
+				(name "LI+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input inverted
+				(at 12.7 27.94 180)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 25.4 180)
+				(length 2.54)
+				(name "VUSB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 22.86 180)
+				(length 2.54)
+				(name "D10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "PA[15]" bidirectional line)
+				(alternate "S3{CTS}" input line)
+				(alternate "WKP" input line)
+			)
+			(pin bidirectional line
+				(at 12.7 20.32 180)
+				(length 2.54)
+				(name "D7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "PA[27]" bidirectional line)
+				(alternate "SWDIO" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 12.7 17.78 180)
+				(length 2.54)
+				(name "D6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "PB[3]" bidirectional line)
+				(alternate "SWCLK" input clock)
+			)
+			(pin bidirectional line
+				(at 12.7 15.24 180)
+				(length 2.54)
+				(name "D5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "PA[19]" bidirectional line)
+				(alternate "S2{RX}" input line)
+				(alternate "SPI1{SS}" output line)
+			)
+			(pin bidirectional line
+				(at 12.7 12.7 180)
+				(length 2.54)
+				(name "D4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "PA[18]" bidirectional line)
+				(alternate "S2{TX}" output line)
+				(alternate "SPI1{SCK}" output clock)
+			)
+			(pin bidirectional line
+				(at 12.7 10.16 180)
+				(length 2.54)
+				(name "D3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "PA[17]" bidirectional line)
+				(alternate "S2{CTS}" input line)
+				(alternate "SPI1{MISO}" input line)
+			)
+			(pin bidirectional line
+				(at 12.7 7.62 180)
+				(length 2.54)
+				(name "D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "PA[16]" bidirectional line)
+				(alternate "S2{RTS}" output line)
+				(alternate "SPI1{MOSI}" output line)
+			)
+			(pin bidirectional clock
+				(at 12.7 5.08 180)
+				(length 2.54)
+				(name "SCL~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "A4" input line)
+				(alternate "ADC_1" input line)
+				(alternate "D1" bidirectional line)
+				(alternate "PB[5]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 12.7 2.54 180)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "A3" input line)
+				(alternate "ADC_2" input line)
+				(alternate "D0" bidirectional line)
+				(alternate "PB[6]" bidirectional line)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
