@@ -1,0 +1,88 @@
+** Drc report for Sensor-Node-2-Board.kicad_pcb **
+** Created on 2026-02-19T23:37:09+0000 **
+
+** Found 26 DRC violations **
+[lib_footprint_mismatch]: Footprint 'C_Disc_D5.0mm_W2.5mm_P5.00mm' does not match copy in library 'Capacitor_THT'.
+    ; warning
+    @(218.7 mm, 125.0 mm): Footprint C301
+[lib_footprint_mismatch]: Footprint 'C_Disc_D5.0mm_W2.5mm_P5.00mm' does not match copy in library 'Capacitor_THT'.
+    ; warning
+    @(205.0 mm, 125.0 mm): Footprint C502
+[lib_footprint_mismatch]: Footprint 'C_Disc_D5.0mm_W2.5mm_P5.00mm' does not match copy in library 'Capacitor_THT'.
+    ; warning
+    @(212.5 mm, 180.0 mm): Footprint C703
+[lib_footprint_mismatch]: Footprint 'C_Disc_D5.0mm_W2.5mm_P5.00mm' does not match copy in library 'Capacitor_THT'.
+    ; warning
+    @(187.5 mm, 175.0 mm): Footprint C704
+[lib_footprint_mismatch]: Footprint 'D_DO-201AD_P15.24mm_Horizontal' does not match copy in library 'Diode_THT'.
+    ; warning
+    @(192.5 mm, 168.74 mm): Footprint D702
+[lib_footprint_mismatch]: Footprint 'PHOTON2' does not match copy in library 'Photon2'.
+    ; warning
+    @(210.67 mm, 151.23 mm): Footprint U601
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Bourns_3296W_Vertical' does not match copy in library 'Potentiometer_THT'.
+    ; warning
+    @(260.0 mm, 105.04 mm): Footprint RV201
+[lib_footprint_mismatch]: Footprint 'CP_Radial_D5.0mm_P2.00mm' does not match copy in library 'Capacitor_THT'.
+    ; warning
+    @(192.5 mm, 180.0 mm): Footprint C705
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Omeg_PC16BU_Vertical' does not match copy in library 'Potentiometer_THT'.
+    ; warning
+    @(211.0 mm, 115.0 mm): Footprint RV501
+[lib_footprint_mismatch]: Footprint 'SW_SPST_Omron_B3F-40xx' does not match copy in library 'Button_Switch_THT'.
+    ; warning
+    @(193.75 mm, 105.0 mm): Footprint SW501
+[lib_footprint_mismatch]: Footprint 'TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal' does not match copy in library 'TerminalBlock_Phoenix'.
+    ; warning
+    @(171.0 mm, 132.5 mm): Footprint J401
+[lib_footprint_mismatch]: Footprint 'C_Disc_D5.0mm_W2.5mm_P5.00mm' does not match copy in library 'Capacitor_THT'.
+    ; warning
+    @(203.0 mm, 168.74 mm): Footprint C701
+[lib_footprint_mismatch]: Footprint 'SO-8_3.9x4.9mm_P1.27mm' does not match copy in library 'Package_SO'.
+    ; warning
+    @(187.5 mm, 137.5 mm): Footprint Q401
+[lib_footprint_mismatch]: Footprint 'CP_Radial_D5.0mm_P2.00mm' does not match copy in library 'Capacitor_THT'.
+    ; warning
+    @(232.5 mm, 140.0 mm): Footprint C102
+[lib_footprint_mismatch]: Footprint 'LED_D5.0mm-3' does not match copy in library 'LED_THT'.
+    ; warning
+    @(175.04 mm, 100.0 mm): Footprint D501
+[lib_footprint_mismatch]: Footprint 'CP_Radial_D5.0mm_P2.00mm' does not match copy in library 'Capacitor_THT'.
+    ; warning
+    @(180.0 mm, 127.5 mm): Footprint C401
+[lib_footprint_mismatch]: Footprint 'D_DO-41_SOD81_P12.70mm_Horizontal' does not match copy in library 'Diode_THT'.
+    ; warning
+    @(228.85 mm, 180.0 mm): Footprint D704
+[lib_footprint_mismatch]: Footprint 'C_Disc_D5.0mm_W2.5mm_P5.00mm' does not match copy in library 'Capacitor_THT'.
+    ; warning
+    @(185.0 mm, 131.19 mm): Footprint C402
+[lib_footprint_mismatch]: Footprint 'C_Disc_D5.0mm_W2.5mm_P5.00mm' does not match copy in library 'Capacitor_THT'.
+    ; warning
+    @(250.0 mm, 90.0 mm): Footprint C201
+[lib_footprint_mismatch]: Footprint 'DIP-8_W7.62mm_Socket' does not match copy in library 'Package_DIP'.
+    ; warning
+    @(238.69 mm, 90.0 mm): Footprint U201
+[lib_footprint_mismatch]: Footprint 'TO-220-3_Vertical' does not match copy in library 'Package_TO_SOT_THT'.
+    ; warning
+    @(203.29 mm, 180.0 mm): Footprint U701
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x02_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    ; warning
+    @(222.54 mm, 105.0 mm): Footprint TH301
+[lib_footprint_mismatch]: Footprint 'C_Disc_D5.0mm_W2.5mm_P5.00mm' does not match copy in library 'Capacitor_THT'.
+    ; warning
+    @(231.35 mm, 93.81 mm): Footprint C202
+[lib_footprint_mismatch]: Footprint 'CP_Radial_D5.0mm_P2.00mm' does not match copy in library 'Capacitor_THT'.
+    ; warning
+    @(248.85 mm, 115.0 mm): Footprint C103
+[lib_footprint_mismatch]: Footprint 'TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal' does not match copy in library 'TerminalBlock_Phoenix'.
+    ; warning
+    @(171.0 mm, 167.5 mm): Footprint J702
+[lib_footprint_mismatch]: Footprint 'C_Disc_D5.0mm_W2.5mm_P5.00mm' does not match copy in library 'Capacitor_THT'.
+    ; warning
+    @(181.25 mm, 111.25 mm): Footprint C501
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

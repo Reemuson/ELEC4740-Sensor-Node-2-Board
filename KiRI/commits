@@ -1,4 +1,2 @@
 _local_|2026-02-19|root|Local changes not committed|False|True
-38c9945|2026-02-20|Reemuson|fix: force pcb outs to A3|False|True
-08ea2e0|2026-02-20|Reemuson|fix: pcb fab/assembly doc layout|False|True
-1c96f48|2026-02-20|Reemuson|fix: pcb dimensioning|False|True
+e5948a1|2026-02-20|Reemuson|fix: image in readme|True|True
