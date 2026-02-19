@@ -1,0 +1,8 @@
+Testpoint Ref.,Net,Net Class,X,Y,Side,Pad Type,Value,Footprint
+TP101,/SCHEMATIC/AMP_OUT,Default,87.5000,55.0000,top,THRU,AMP_OUT,TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded
+TP201,/SCHEMATIC/ENV,Default,75.0000,81.0000,top,THRU,ENV,TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded
+TP401,/SCHEMATIC/PWM_FAN,Default,49.0000,55.0000,top,THRU,PWM_FAN,TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded
+TP701,+VUSB,Power 5V,72.5000,5.0000,top,THRU,+VUSB,TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded
+TP702,+12V,Power 12V,35.5000,32.5000,top,THRU,+12V,TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded
+TP901,GND,GND,72.5000,70.0000,top,THRU,GND,TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded
+TP902,GND,GND,46.0000,37.0000,top,THRU,GND,TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded

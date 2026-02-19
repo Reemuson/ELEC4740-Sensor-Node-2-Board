@@ -1,0 +1,2896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/github/workspace/Sensor-Node-2-Board.kicad_sch</source>
+    <date>Date1</date>
+    <tool>Eeschema 9.0.7+1</tool>
+    <textvar name="ASSEMBLY_NOTES">ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)
+
+1)	DO NOT POPULATE PARTS ARE MARKED WITH A RED CROSS.
+
+2)	DO NOT POPULATE PARTS ARE NOT PRESENT IN THE BOM.
+
+3)	IF CONFLICTING INFORMATION IS FOUND BETWEEN THE ASSEMBLY
+	FILE AND BOM, BOM SHOULD BE USED AS THE MAIN SOURCE.
+
+4)	CONFORMAL COATING IS NOT REQUIRED.
+
+5)	DOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION
+	WHEN VIEWED FROM THE TOP.</textvar>
+    <textvar name="BOARD_NAME">SN2 BREAKOUT BOARD</textvar>
+    <textvar name="COMPANY">RYAN DYNAMICS</textvar>
+    <textvar name="DESIGNER">R. HICKS</textvar>
+    <textvar name="FABRICATION_NOTES">FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)
+
+1)	FABRICATE PER IPC-6012A CLASS 2.
+
+2)	OUTLINE DEFINED IN SEPARATE GERBER FILE WITH
+	"Edge_Cuts.GBR" SUFFIX.
+
+	DIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS
+	DRAWING FOR REFERENCE ONLY.
+
+3)	SEE SEPARATE DRILL FILES WITH ".DRL" SUFFIX 
+	FOR HOLE LOCATIONS.
+
+	SELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING 
+	FOR REFERENCE ONLY.
+
+4)	SURFACE FINISH: HAL SNPB
+
+5)	SOLDERMASK ON BOTH SIDES OF THE BOARD SHALL 
+	BE LPI, COLOR GREEN.
+
+6)	SILK SCREEN LEGEND TO BE APPLIED PER LAYER 
+	STACKUP USING WHITE NON-CONDUCTIVE EPOXY INK.
+
+7)	ALL VIAS ARE TENTED ON BOTH SIDES UNLESS 
+	SOLDERMASK OPENED IN GERBER.
+
+8)	VENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS 
+	AND Pb FREE FOR MANUFACTURING
+
+9)	PCB MATERIAL REQUIREMENTS:
+
+	A.	FLAMMABILITY RATING MUST MEET OR EXCEED 
+		UL94V-0 REQUIREMENTS.
+	B.	Tg 170 C OR EQUIVALENT.
+	C.	EQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, 
+		HALOGEN FREE AND APPROVED BY RYAN DYNAMICS.
+
+10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
+
+	BOARD SIZE				100.000 × 100.000 mm
+	BOARD THICKNESS		1.600 mm
+	TRACE WIDTH			0.200 mm
+	TRACE TO TRACE		0.200 mm
+	MIN. HOLE (PTH)			0.300 mm
+	MIN. HOLE (NPTH)		1.800 mm
+	ANNULAR RING			0.150 mm
+	COPPER TO HOLE		0.254 mm
+	COPPER TO EDGE		0.250 mm
+	HOLE TO HOLE			0.254 mm</textvar>
+    <textvar name="GIT_HASH_PCB">9d7cd56</textvar>
+    <textvar name="GIT_HASH_SCH">9d7cd56</textvar>
+    <textvar name="GIT_URL">https://github.com/Reemuson/ELEC4740-Sensor-Node-2-Board</textvar>
+    <textvar name="PROJECT_NAME">ELEC4740 ASSIGNMENT</textvar>
+    <textvar name="RELEASE_BODY_1.0.0"/>
+    <textvar name="RELEASE_BODY_1.0.1"/>
+    <textvar name="RELEASE_BODY_1.0.2"/>
+    <textvar name="RELEASE_BODY_1.1.0"/>
+    <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
+    <textvar name="RELEASE_DATE">20-Feb-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-02-20</textvar>
+    <textvar name="RELEASE_TITLE_1.0.0"/>
+    <textvar name="RELEASE_TITLE_1.0.1"/>
+    <textvar name="RELEASE_TITLE_1.0.2"/>
+    <textvar name="RELEASE_TITLE_1.1.0"/>
+    <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
+    <textvar name="REVISION">+ (Unreleased)</textvar>
+    <textvar name="SHEET_NAME_1">Cover Page</textvar>
+    <textvar name="SHEET_NAME_10">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_11">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_12">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_13">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_14">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_15">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_16">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_17">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_18">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_19">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_2">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_20">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_21">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_22">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_23">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_24">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_25">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_26">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_27">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_28">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_29">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_3">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_30">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_31">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_32">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_33">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_34">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_35">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_36">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_37">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_38">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_39">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_4">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_40">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_5">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_6">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_7">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_8">Error: XML File not found</textvar>
+    <textvar name="SHEET_NAME_9">Error: XML File not found</textvar>
+    <textvar name="VARIANT">PRELIMINARY</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company>RYAN DYNAMICS</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Sensor-Node-2-Board.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/">
+      <title_block>
+        <title>SCHEMATIC</title>
+        <company>RYAN DYNAMICS</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Project Architecture.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/REVISION HISTORY/" tstamps="/6e125bd6-2f99-4e5d-b3ea-4899f4540739/">
+      <title_block>
+        <title>REVISION HISTORY</title>
+        <company>RYAN DYNAMICS</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Revision History.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C101">
+      <value>1u</value>
+      <footprint>Capacitor_THT:C_Rect_L16.5mm_W6.0mm_P15.00mm_MKT</footprint>
+      <datasheet>~</datasheet>
+      <description>CAP GRN 1U 100V P=11MM</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN">RG5170</field>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Voltage">100V</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Capacitor_THT:C_Rect_L16.5mm_W6.0mm_P15.00mm_MKT</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">CAP GRN 1U 100V P=11MM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value="RG5170"/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Voltage" value="100V"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>6ebabe78-e920-42d5-b017-9ed0ca1db78b</tstamps>
+    </comp>
+    <comp ref="C102">
+      <value>3.3u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <description>CAP LL CD81 RB 3U3 50V P=2MM 5X11MM</description>
+      <fields>
+        <field name="Voltage">50V</field>
+        <field name="Manufacturer"/>
+        <field name="SPN">RL6422</field>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Dielectric"/>
+        <field name="Tolerance">10%</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">CAP LL CD81 RB 3U3 50V P=2MM 5X11MM</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value="RL6422"/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Dielectric" value=""/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>645050b3-7aa3-479b-b595-653490f40d9b</tstamps>
+    </comp>
+    <comp ref="C103">
+      <value>3.3u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <description>CAP LL CD81 RB 3U3 50V P=2MM 5X11MM</description>
+      <fields>
+        <field name="Voltage">50V</field>
+        <field name="Manufacturer"/>
+        <field name="SPN">RL6422</field>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Dielectric"/>
+        <field name="Tolerance">10%</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">CAP LL CD81 RB 3U3 50V P=2MM 5X11MM</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value="RL6422"/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Dielectric" value=""/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>473960f1-0802-4fa1-930f-23d7d60fe156</tstamps>
+    </comp>
+    <comp ref="C201">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <description>CAP CER Y5U 100N 50V 20% P=5MM</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN">RC5360</field>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Dielectric">Y5U</field>
+        <field name="Tolerance">20%</field>
+        <field name="Voltage">50V</field>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">CAP CER Y5U 100N 50V 20% P=5MM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value="RC5360"/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Dielectric" value="Y5U"/>
+      <property name="Tolerance" value="20%"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>7cbdc390-2a6f-4366-b03f-ce85e582fb0f</tstamps>
+    </comp>
+    <comp ref="C202">
+      <value>1u</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <description>CAP MONO 1U 50V</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Voltage">50V</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">CAP MONO 1U 50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Voltage" value="50V"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>c80dda2d-a71c-4329-9b78-80d4674eed5f</tstamps>
+    </comp>
+    <comp ref="C301">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <description>CAP CER Y5U 100N 50V 20% P=5MM</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN">RC5360</field>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Dielectric">Y5U</field>
+        <field name="Tolerance">20%</field>
+        <field name="Voltage">50V</field>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">CAP CER Y5U 100N 50V 20% P=5MM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value="RC5360"/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Dielectric" value="Y5U"/>
+      <property name="Tolerance" value="20%"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>68072ad1-f73d-460a-91b7-43d7845cac57</tstamps>
+    </comp>
+    <comp ref="C401">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Polarized capacitor</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Dielectric"/>
+        <field name="Voltage">25V</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Dielectric" value=""/>
+      <property name="Voltage" value="25V"/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>982ba977-9f4b-4ccc-89af-425e35bddcef</tstamps>
+    </comp>
+    <comp ref="C402">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <description>CAP CER Y5U 100N 50V 20% P=5MM</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN">RC5360</field>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Dielectric">Y5U</field>
+        <field name="Tolerance">20%</field>
+        <field name="Voltage">50V</field>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">CAP CER Y5U 100N 50V 20% P=5MM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value="RC5360"/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Dielectric" value="Y5U"/>
+      <property name="Tolerance" value="20%"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>b758b070-b250-4f2f-862c-13d0775cc2e9</tstamps>
+    </comp>
+    <comp ref="C501">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <description>CAP CER Y5U 100N 50V 20% P=5MM</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN">RC5360</field>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Dielectric">Y5U</field>
+        <field name="Tolerance">20%</field>
+        <field name="Voltage">50V</field>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">CAP CER Y5U 100N 50V 20% P=5MM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value="RC5360"/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Dielectric" value="Y5U"/>
+      <property name="Tolerance" value="20%"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>49451921-f85b-48d3-a505-6a1a39fd745c</tstamps>
+    </comp>
+    <comp ref="C502">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <description>CAP CER Y5U 100N 50V 20% P=5MM</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN">RC5360</field>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Dielectric">Y5U</field>
+        <field name="Tolerance">20%</field>
+        <field name="Voltage">50V</field>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">CAP CER Y5U 100N 50V 20% P=5MM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value="RC5360"/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Dielectric" value="Y5U"/>
+      <property name="Tolerance" value="20%"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>41212c1b-f210-4cb1-893e-a066e4fd7236</tstamps>
+    </comp>
+    <comp ref="C701">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <description>CAP CER Y5U 100N 50V 20% P=5MM</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN">RC5360</field>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Dielectric">Y5U</field>
+        <field name="Tolerance">20%</field>
+        <field name="Voltage">50V</field>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">CAP CER Y5U 100N 50V 20% P=5MM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value="RC5360"/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Dielectric" value="Y5U"/>
+      <property name="Tolerance" value="20%"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>fee74989-ba12-4e55-9118-0a465ed5af12</tstamps>
+    </comp>
+    <comp ref="C702">
+      <value>47u</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Polarized capacitor</description>
+      <fields>
+        <field name="Voltage">25V</field>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Dielectric"/>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Voltage" value="25V"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>0c5a74f7-9e1f-4892-b147-cdd65c9d2877</tstamps>
+    </comp>
+    <comp ref="C703">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <description>CAP CER Y5U 100N 50V 20% P=5MM</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN">RC5360</field>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Dielectric">Y5U</field>
+        <field name="Tolerance">20%</field>
+        <field name="Voltage">50V</field>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">CAP CER Y5U 100N 50V 20% P=5MM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value="RC5360"/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Dielectric" value="Y5U"/>
+      <property name="Tolerance" value="20%"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>4fa9b916-8b3a-42df-a36b-10c09a2b5d09</tstamps>
+    </comp>
+    <comp ref="C704">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <description>CAP CER Y5U 100N 50V 20% P=5MM</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN">RC5360</field>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Dielectric">Y5U</field>
+        <field name="Tolerance">20%</field>
+        <field name="Voltage">50V</field>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">CAP CER Y5U 100N 50V 20% P=5MM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value="RC5360"/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Dielectric" value="Y5U"/>
+      <property name="Tolerance" value="20%"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>fb9de5ed-6f17-49b3-b97c-b14385d1d36c</tstamps>
+    </comp>
+    <comp ref="C705">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Polarized capacitor</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Dielectric"/>
+        <field name="Voltage">25V</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Dielectric" value=""/>
+      <property name="Voltage" value="25V"/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>f9f2fda2-3c8f-4bbb-9aa5-d4fdbea64759</tstamps>
+    </comp>
+    <comp ref="D101">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <description>DIODE 1N4148 FAST 100V 250MA DO41</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</field>
+        <field name="Description">DIODE 1N4148 FAST 100V 250MA DO41</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*DO?35*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>8ec9ca52-456c-42e3-a862-7f263560a7b7</tstamps>
+    </comp>
+    <comp ref="D401">
+      <value>1N5819</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <description>DIODE 1N5819 SCHOTTKY 40V 1A DO41</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN">ZR1020</field>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88525/1n5817.pdf</field>
+        <field name="Description">DIODE 1N5819 SCHOTTKY 40V 1A DO41</field>
+      </fields>
+      <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value="ZR1020"/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="D*DO?41*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>05ec75b3-0f2f-4b88-a8ed-d7e4710c2ad8</tstamps>
+    </comp>
+    <comp ref="D501">
+      <value>LED_STATUS</value>
+      <footprint>LED_THT:LED_D5.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <description>LED 5MM DIF BICOL COM CATH ORG/GRN 70/80</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN">ZD0252</field>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">LED_THT:LED_D5.0mm-3</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">LED 5MM DIF BICOL COM CATH ORG/GRN 70/80</field>
+      </fields>
+      <libsource lib="Device" part="LED_Dual_AKA" description="Dual LED, common cathode on pin 2"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value="ZD0252"/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode bicolor dual"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>ea6232fa-21b0-49eb-bde5-2b2df58afea9</tstamps>
+    </comp>
+    <comp ref="D701">
+      <value>P4KE16AC</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <datasheet>https://www.jaycar.com.au/p4ke-13-6v-16a-standoff-400w-ac/p/ZR1162</datasheet>
+      <description>Bidirectional transient-voltage-suppression diode</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Dielectric"/>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</field>
+        <field name="Datasheet">https://www.jaycar.com.au/p4ke-13-6v-16a-standoff-400w-ac/p/ZR1162</field>
+        <field name="Description">Bidirectional transient-voltage-suppression diode</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="diode TVS thyrector"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>d2575d99-26d8-4dbd-92b5-c93625b296fa</tstamps>
+    </comp>
+    <comp ref="D702">
+      <value>1N5822</value>
+      <footprint>Diode_THT:D_DO-201AD_P15.24mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88526/1n5820.pdf</datasheet>
+      <description>DIODE 1N5822 SCHOTTKY 40V 3A DO41</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN">ZR1023</field>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Diode_THT:D_DO-201AD_P15.24mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88526/1n5820.pdf</field>
+        <field name="Description">DIODE 1N5822 SCHOTTKY 40V 3A DO41</field>
+      </fields>
+      <libsource lib="Diode" part="1N5822" description="40V 3A Schottky Barrier Rectifier Diode, DO-201AD"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value="ZR1023"/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="D*DO?201AD*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>4c2dc498-50f9-49e9-b78e-994a61f85d57</tstamps>
+    </comp>
+    <comp ref="D703">
+      <value>1N4004</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <description>400V 1A General Purpose Rectifier Diode, DO-41</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Dielectric"/>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+        <field name="Description">400V 1A General Purpose Rectifier Diode, DO-41</field>
+      </fields>
+      <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*DO?41*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>48f44dd6-53a2-4c6e-b06c-567017b817d7</tstamps>
+    </comp>
+    <comp ref="D704">
+      <value>1N5819</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <description>DIODE 1N5819 SCHOTTKY 40V 1A DO41</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN">ZR1020</field>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88525/1n5817.pdf</field>
+        <field name="Description">DIODE 1N5819 SCHOTTKY 40V 1A DO41</field>
+      </fields>
+      <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value="ZR1020"/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="D*DO?41*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>2aee5346-4982-4fb9-9855-3b77cded8d94</tstamps>
+    </comp>
+    <comp ref="F701">
+      <value>1A M205</value>
+      <footprint>Fuse:Fuseholder_Clip-5x20mm_Eaton_1A5601-01_Inline_P20.80x6.76mm_D1.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Fuse</description>
+      <fields>
+        <field name="Footprint">Fuse:Fuseholder_Clip-5x20mm_Eaton_1A5601-01_Inline_P20.80x6.76mm_D1.70mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Fuse</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="fuse"/>
+      <property name="ki_fp_filters" value="*Fuse*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>4b0cfdf6-4fc0-4a39-87b6-ea5fad1f1abe</tstamps>
+    </comp>
+    <comp ref="FID901">
+      <value>FIDUCIAL</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Fiducial Marker</description>
+      <fields>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Dielectric"/>
+        <field name="Footprint">Fiducial:Fiducial_1mm_Mask2mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>5da9979e-621a-4861-82a4-9db544fc990d</tstamps>
+    </comp>
+    <comp ref="FID902">
+      <value>FIDUCIAL</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Fiducial Marker</description>
+      <fields>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Dielectric"/>
+        <field name="Footprint">Fiducial:Fiducial_1mm_Mask2mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>84a0f0cd-8876-4fd9-86ef-7cf7643f32d2</tstamps>
+    </comp>
+    <comp ref="FID903">
+      <value>FIDUCIAL</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Fiducial Marker</description>
+      <fields>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Dielectric"/>
+        <field name="Footprint">Fiducial:Fiducial_1mm_Mask2mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>c17ae12b-7b0c-4733-85a9-e6dcd9e22842</tstamps>
+    </comp>
+    <comp ref="H901">
+      <value>MOUNT_M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole with connection</description>
+      <fields>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Dielectric"/>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>ce91a7f2-bbce-4af7-ad08-7a90d463883e</tstamps>
+    </comp>
+    <comp ref="H902">
+      <value>MOUNT_M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole with connection</description>
+      <fields>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Dielectric"/>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>10cda48e-adc9-44ff-916e-5401391dcac9</tstamps>
+    </comp>
+    <comp ref="H903">
+      <value>MOUNT_M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole with connection</description>
+      <fields>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Dielectric"/>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>1ed94456-2293-48aa-872c-51f2180c6838</tstamps>
+    </comp>
+    <comp ref="H904">
+      <value>MOUNT_M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole with connection</description>
+      <fields>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Dielectric"/>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>55cf5afe-cd67-43bc-9858-2ad7353bab96</tstamps>
+    </comp>
+    <comp ref="ID901">
+      <value>BOARD_STACKUP_MARKER</value>
+      <footprint>RD-Symbols-Silkscreen:STACKUP_ID_2L_SML</footprint>
+      <description>PCB stackup layer identification marker (non-electrical)</description>
+      <fields>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Dielectric"/>
+        <field name="Footprint">RD-Symbols-Silkscreen:STACKUP_ID_2L_SML</field>
+        <field name="Datasheet"/>
+        <field name="Description">PCB stackup layer identification marker (non-electrical)</field>
+      </fields>
+      <libsource lib="Ryan-Dynamics" part="BOARD_STACKUP_MARKER" description="PCB stackup layer identification marker (non-electrical)"/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="pcb stackup layer id marker fabrication"/>
+      <property name="ki_fp_filters" value="STACKUP_ID_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>0ba8947d-9882-41c9-b287-a1bcd7c00991</tstamps>
+    </comp>
+    <comp ref="J401">
+      <value>EBWA-02-B</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>TERMINAL PCB SCREW 2WAY BLU P=5MM</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN">HM3412</field>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">TERMINAL PCB SCREW 2WAY BLU P=5MM</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value="HM3412"/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <property name="ki_fp_filters" value="TerminalBlock*:*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>139aeb10-570b-47b7-8a73-4f2df47b9a54</tstamps>
+    </comp>
+    <comp ref="J701">
+      <value>PS0519</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Kycon_KLDX-0202-xC_Horizontal</footprint>
+      <datasheet>https://www.jaycar.com.au/2-1mm-pc-mount-male-dc-power-connector/p/PS0519</datasheet>
+      <description>SKT PCB DC SPST SWITCHED 2.1MM</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Connector_BarrelJack:BarrelJack_Kycon_KLDX-0202-xC_Horizontal</field>
+        <field name="Datasheet">https://www.jaycar.com.au/2-1mm-pc-mount-male-dc-power-connector/p/PS0519</field>
+        <field name="Description">SKT PCB DC SPST SWITCHED 2.1MM</field>
+      </fields>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <property name="ki_fp_filters" value="BarrelJack*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>29f2c119-79e5-46c0-b68e-ae58bad018e9</tstamps>
+    </comp>
+    <comp ref="J702">
+      <value>EBWA-02-B</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>TERMINAL PCB SCREW 2WAY BLU P=5MM</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN">HM3412</field>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">TERMINAL PCB SCREW 2WAY BLU P=5MM</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value="HM3412"/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <property name="ki_fp_filters" value="TerminalBlock*:*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>3be8c647-72e7-4d94-9ca5-22eedc38fed2</tstamps>
+    </comp>
+    <comp ref="MK101">
+      <value>MIC</value>
+      <footprint>Sensor_Audio:POM-2244P-C3310-2-R</footprint>
+      <datasheet>~</datasheet>
+      <description>MIC PCB 2PIN 1.5V D10XH6.5MM</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN">AM4011</field>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Sensor_Audio:POM-2244P-C3310-2-R</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">MIC PCB 2PIN 1.5V D10XH6.5MM</field>
+      </fields>
+      <libsource lib="Device" part="Microphone_Crystal" description="Crystal microphone"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value="AM4011"/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="microphone crystal"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>a3a9b15f-555e-4adb-9d8c-2a06598f4515</tstamps>
+    </comp>
+    <comp ref="Q101">
+      <value>BC549</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <description>TRAN BC540 NPN 30V 100MA TO92</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Dielectric"/>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC550-D.pdf</field>
+        <field name="Description">TRAN BC540 NPN 30V 100MA TO92</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC549" description="0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <property name="ki_fp_filters" value="TO?92*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>4ba4cbff-15d0-40c4-9c87-37d8649e48f5</tstamps>
+    </comp>
+    <comp ref="Q401">
+      <value>Si4944DY</value>
+      <footprint>Package_SO:SO-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.digikey.com.au/en/htmldatasheets/production/831318/0/0/2/si4944dy</datasheet>
+      <description>SMD MOSFET SI4944DY DUAL N-CH 30V SOIC8</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN">ZK8821</field>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Package_SO:SO-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">https://www.digikey.com.au/en/htmldatasheets/production/831318/0/0/2/si4944dy</field>
+        <field name="Description">SMD MOSFET SI4944DY DUAL N-CH 30V SOIC8</field>
+      </fields>
+      <libsource lib="Si4944DY" part="Si4944DY" description=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value="ZK8821"/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="Si4944DY"/>
+      <property name="ki_fp_filters" value="MICRO8_INF MICRO8_INF-M MICRO8_INF-L"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>8e6f6f10-60ce-4bbf-a0ae-d5705171bee7</tstamps>
+    </comp>
+    <comp ref="R101">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>RES 0.5W CARB 4.7K</description>
+      <fields>
+        <field name="Tolerance">1%</field>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Dielectric"/>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">RES 0.5W CARB 4.7K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>547d26c2-cad7-4f14-96cf-3950acbe6b5e</tstamps>
+    </comp>
+    <comp ref="R102">
+      <value>22k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>RES 0.5W CARB 22K</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Tolerance">1%</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">RES 0.5W CARB 22K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>45d0de6a-ddb8-41c7-befc-e1e8e6d444ad</tstamps>
+    </comp>
+    <comp ref="R103">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>RES 0.5W CARB 10K</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Tolerance">1%</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">RES 0.5W CARB 10K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>8e344226-1cc0-4121-bfef-413b4bd2ea40</tstamps>
+    </comp>
+    <comp ref="R104">
+      <value>3.3k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>RES 0.5W CARB 3.3K</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Tolerance">1%</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">RES 0.5W CARB 3.3K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>dc2f717f-c979-4f73-8c7e-f21cfacc8daa</tstamps>
+    </comp>
+    <comp ref="R105">
+      <value>62</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>RES 0.5W CARB 62R</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Tolerance">1%</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">RES 0.5W CARB 62R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>c1b3b417-e86a-4286-9e59-384f4a3d582e</tstamps>
+    </comp>
+    <comp ref="R106">
+      <value>560</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>RES 0.5W CARB 560R</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Tolerance">1%</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">RES 0.5W CARB 560R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>363d5138-0a35-4770-8d3f-97bdbd064b37</tstamps>
+    </comp>
+    <comp ref="R107">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>RES 0.5W CARB 100K</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Tolerance">1%</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">RES 0.5W CARB 100K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>86206560-4d9b-4f4a-8166-fd771c822d3f</tstamps>
+    </comp>
+    <comp ref="R201">
+      <value>1Meg</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <description>RES 0.5W CARB 1M</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Tolerance">1%</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">RES 0.5W CARB 1M</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>23d45fe2-1a3f-49d6-bc5a-ed765b94e492</tstamps>
+    </comp>
+    <comp ref="R202">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>RES 0.5W CARB 10K</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Tolerance">1%</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">RES 0.5W CARB 10K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>55a27e76-e197-465d-a386-eeb703862c7d</tstamps>
+    </comp>
+    <comp ref="R301">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>RES 0.5W CARB 100K</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Tolerance">1%</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">RES 0.5W CARB 100K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>bf9dd4f7-6800-4c5b-8be3-860bb60ebb2c</tstamps>
+    </comp>
+    <comp ref="R302">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>RES 0.5W CARB 1K</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Tolerance">1%</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">RES 0.5W CARB 1K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>98cf73c2-4952-46a3-a6b8-9d93c040df73</tstamps>
+    </comp>
+    <comp ref="R401">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>RES 0.5W CARB 100R</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Tolerance">1%</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">RES 0.5W CARB 100R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>e28bfaec-ed28-4e86-9af4-328c4eafd10e</tstamps>
+    </comp>
+    <comp ref="R402">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>RES 0.5W CARB 100K</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Tolerance">1%</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">RES 0.5W CARB 100K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>82a541ad-4deb-4344-a958-1e819881c5db</tstamps>
+    </comp>
+    <comp ref="R501">
+      <value>120</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>RES 0.5W CARB 120R</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Tolerance">1%</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">RES 0.5W CARB 120R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>f99d88b0-ba2c-4db1-8138-c092aa186cce</tstamps>
+    </comp>
+    <comp ref="R502">
+      <value>120</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>RES 0.5W CARB 120R</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Tolerance">1%</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">RES 0.5W CARB 120R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>60d56488-7deb-461a-a3b5-eaba50a22d63</tstamps>
+    </comp>
+    <comp ref="R503">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>RES 0.5W CARB 1K</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Tolerance">1%</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">RES 0.5W CARB 1K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>f5b2f330-9545-41d8-aa52-8388e8c51dc1</tstamps>
+    </comp>
+    <comp ref="RV201">
+      <value>10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <description>TRIMPOT 25TURN 10K TOP ADJ</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN">RT4650</field>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">TRIMPOT 25TURN 10K TOP ADJ</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer_Trim" description="Trim-potentiometer"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value="RT4650"/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="resistor variable trimpot trimmer"/>
+      <property name="ki_fp_filters" value="Potentiometer*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>832bd1ed-5bfa-415e-b6e3-d77a2f1cef4b</tstamps>
+    </comp>
+    <comp ref="RV501">
+      <value>10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Omeg_PC16BU_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <description>POT PCB LIN SG 16MM B10K STD IMP SHAFT</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN">RP7510</field>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Potentiometer_THT:Potentiometer_Omeg_PC16BU_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">POT PCB LIN SG 16MM B10K STD IMP SHAFT</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value="RP7510"/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <property name="ki_fp_filters" value="Potentiometer*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>36fbdb69-3fa4-496f-a1ce-680604720774</tstamps>
+    </comp>
+    <comp ref="SW501">
+      <value>SW_HELP</value>
+      <footprint>Button_Switch_THT:SW_SPST_Omron_B3F-40xx</footprint>
+      <datasheet>~</datasheet>
+      <description>SWITCH PCB TACT SPST SQR STEM 11.9X11.9</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN">SP0608</field>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Button_Switch_THT:SW_SPST_Omron_B3F-40xx</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">SWITCH PCB TACT SPST SQR STEM 11.9X11.9</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value="SP0608"/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>51b0a081-8579-4f0f-a0e1-b3e43c9a54da</tstamps>
+    </comp>
+    <comp ref="TH301">
+      <value>NTC100K</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <description>THERMISTOR NTC GLASS 100KR 250DEG</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN">RN3446</field>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">THERMISTOR NTC GLASS 100KR 250DEG</field>
+      </fields>
+      <libsource lib="Device" part="Thermistor_NTC" description="Temperature dependent resistor, negative temperature coefficient"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value="RN3446"/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="thermistor NTC resistor sensor RTD"/>
+      <property name="ki_fp_filters" value="*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>f8bd72df-7d40-44b6-8fa0-d254e2e13d3d</tstamps>
+    </comp>
+    <comp ref="TP101">
+      <value>AMP_OUT</value>
+      <footprint>RD-Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">RD-Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>75a7f698-7e95-4748-8b85-114fc931fb71</tstamps>
+    </comp>
+    <comp ref="TP201">
+      <value>ENV</value>
+      <footprint>RD-Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">RD-Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>8cde44ec-57eb-4c7f-afdd-a3de79c992d6</tstamps>
+    </comp>
+    <comp ref="TP401">
+      <value>PWM_FAN</value>
+      <footprint>RD-Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">RD-Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>807674d4-4a32-496d-9f09-58349168b489</tstamps>
+    </comp>
+    <comp ref="TP701">
+      <value>+VUSB</value>
+      <footprint>RD-Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">RD-Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>454e86c3-81d9-4afb-8b65-ecece15c366f</tstamps>
+    </comp>
+    <comp ref="TP702">
+      <value>+12V</value>
+      <footprint>RD-Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">RD-Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>e96e9c3f-a31a-4e69-b4fc-0e194c25966f</tstamps>
+    </comp>
+    <comp ref="TP901">
+      <value>GND</value>
+      <footprint>RD-Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">RD-Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>2031fc51-b85d-4537-a02c-54bcad66808e</tstamps>
+    </comp>
+    <comp ref="TP902">
+      <value>GND</value>
+      <footprint>RD-Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">RD-Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>bc7ac74a-a9d9-4a46-9f29-c608fd7a320a</tstamps>
+    </comp>
+    <comp ref="U201">
+      <value>LM393</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm393.pdf</datasheet>
+      <description>IC LM393N LO-PWR DUAL COMPARATOR DIP8</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN">ZL3393</field>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm_Socket</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm393.pdf</field>
+        <field name="Description">IC LM393N LO-PWR DUAL COMPARATOR DIP8</field>
+      </fields>
+      <libsource lib="Comparator" part="LM393" description="Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value="ZL3393"/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="cmp open collector"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>37ba182b-993c-4cc3-bc50-f13113295261 36d5d3c4-bbcd-4232-aaf0-a3dc30e92bbc 30121282-8d05-4dc3-8a0c-11c3f84145af</tstamps>
+    </comp>
+    <comp ref="U601">
+      <value>Photon 2</value>
+      <footprint>Photon2:PHOTON2</footprint>
+      <datasheet>https://docs.particle.io/reference/datasheets/wi-fi/photon-2-datasheet/</datasheet>
+      <description>PHOTON 2 [X1]</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN"/>
+        <field name="Supplier"/>
+        <field name="Dielectric"/>
+        <field name="Footprint">Photon2:PHOTON2</field>
+        <field name="Datasheet">https://docs.particle.io/reference/datasheets/wi-fi/photon-2-datasheet/</field>
+        <field name="Description">PHOTON 2 [X1]</field>
+      </fields>
+      <libsource lib="Photon2" part="Photon2" description="PHOTON 2 [X1]"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value=""/>
+      <property name="Supplier" value=""/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>a3f120b3-6402-4fa8-8149-677b2aca8ee8</tstamps>
+    </comp>
+    <comp ref="U701">
+      <value>L7805</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <description>VREG 7805 +5V 1A TO220</description>
+      <fields>
+        <field name="Manufacturer"/>
+        <field name="SPN">ZV1505</field>
+        <field name="Supplier">Jaycar Electronics</field>
+        <field name="Dielectric"/>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</field>
+        <field name="Description">VREG 7805 +5V 1A TO220</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="L7805" description="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <property name="Manufacturer" value=""/>
+      <property name="SPN" value="ZV1505"/>
+      <property name="Supplier" value="Jaycar Electronics"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="Voltage Regulator 1.5A Positive"/>
+      <property name="ki_fp_filters" value="TO?252* TO?263* TO?220*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>65d757a7-4e6b-4c30-a7fb-ffbdd08acab8</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Comparator" part="LM393">
+      <description>Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm393.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOP*5.28x5.23mm*P1.27mm*</fp>
+        <fp>VSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM393</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm393.pdf</field>
+        <field name="Description">Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="open_collector"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="open_collector"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">DC Barrel Jack with an internal switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_TVS">
+      <description>Bidirectional transient-voltage-suppression diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Bidirectional transient-voltage-suppression diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Dual_AKA">
+      <description>Dual LED, common cathode on pin 2</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Dual_AKA</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Dual LED, common cathode on pin 2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="input"/>
+        <pin num="2" name="K" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Microphone_Crystal">
+      <description>Crystal microphone</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">MK</field>
+        <field name="Value">Microphone_Crystal</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Crystal microphone</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Potentiometer</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer_Trim">
+      <description>Trim-potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer_Trim</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Trim-potentiometer</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Thermistor_NTC">
+      <description>Temperature dependent resistor, negative temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">Thermistor_NTC</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Temperature dependent resistor, negative temperature coefficient</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4004">
+      <description>400V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4004</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+        <field name="Description">400V 1A General Purpose Rectifier Diode, DO-41</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</field>
+        <field name="Description">100V 0.15A standard switching diode, DO-35</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N5819">
+      <description>40V 1A Schottky Barrier Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88525/1n5817.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5819</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88525/1n5817.pdf</field>
+        <field name="Description">40V 1A Schottky Barrier Rectifier Diode, DO-41</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N5822">
+      <description>40V 3A Schottky Barrier Rectifier Diode, DO-201AD</description>
+      <docs>http://www.vishay.com/docs/88526/1n5820.pdf</docs>
+      <footprints>
+        <fp>D*DO?201AD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5822</field>
+        <field name="Footprint">Diode_THT:D_DO-201AD_P15.24mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88526/1n5820.pdf</field>
+        <field name="Description">40V 3A Schottky Barrier Rectifier Diode, DO-201AD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Photon2" part="Photon2">
+      <description>PHOTON 2 [X1]</description>
+      <docs>https://docs.particle.io/reference/datasheets/wi-fi/photon-2-datasheet/</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Photon 2</field>
+        <field name="Footprint">Photon2:PHOTON2</field>
+        <field name="Datasheet">https://docs.particle.io/reference/datasheets/wi-fi/photon-2-datasheet/</field>
+        <field name="Description">PHOTON 2 [X1]</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RST" type="input"/>
+        <pin num="2" name="3V3" type="power_out"/>
+        <pin num="3" name="MODE" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="A0" type="input"/>
+        <pin num="6" name="A1" type="input"/>
+        <pin num="7" name="A2~" type="input"/>
+        <pin num="8" name="A5~" type="input"/>
+        <pin num="9" name="S4" type="bidirectional"/>
+        <pin num="10" name="S3" type="bidirectional"/>
+        <pin num="11" name="SCK" type="output"/>
+        <pin num="12" name="MO" type="output"/>
+        <pin num="13" name="MI" type="input"/>
+        <pin num="14" name="RX" type="input"/>
+        <pin num="15" name="TX" type="output"/>
+        <pin num="16" name="NC" type="no_connect"/>
+        <pin num="17" name="SDA" type="bidirectional"/>
+        <pin num="18" name="SCL~" type="bidirectional"/>
+        <pin num="19" name="D2" type="bidirectional"/>
+        <pin num="20" name="D3" type="bidirectional"/>
+        <pin num="21" name="D4" type="bidirectional"/>
+        <pin num="22" name="D5" type="bidirectional"/>
+        <pin num="23" name="D6" type="bidirectional"/>
+        <pin num="24" name="D7" type="bidirectional"/>
+        <pin num="25" name="D10" type="bidirectional"/>
+        <pin num="26" name="VUSB" type="passive"/>
+        <pin num="27" name="EN" type="input"/>
+        <pin num="28" name="LI+" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L7805">
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</field>
+        <field name="Description">Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Ryan-Dynamics" part="BOARD_STACKUP_MARKER">
+      <description>PCB stackup layer identification marker (non-electrical)</description>
+      <footprints>
+        <fp>STACKUP_ID_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">ID?</field>
+        <field name="Value">BOARD_STACKUP_MARKER</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">PCB stackup layer identification marker (non-electrical)</field>
+      </fields>
+    </libpart>
+    <libpart lib="Si4944DY" part="Si4944DY">
+      <docs>https://www.digikey.com.au/en/htmldatasheets/production/831318/0/0/2/si4944dy</docs>
+      <footprints>
+        <fp>MICRO8_INF</fp>
+        <fp>MICRO8_INF-M</fp>
+        <fp>MICRO8_INF-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Si4944DY</field>
+        <field name="Footprint">Package_SO:SO-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">https://www.digikey.com.au/en/htmldatasheets/production/831318/0/0/2/si4944dy</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="S1" type="passive"/>
+        <pin num="2" name="G1" type="passive"/>
+        <pin num="3" name="S2" type="passive"/>
+        <pin num="4" name="G2" type="passive"/>
+        <pin num="5" name="D2" type="passive"/>
+        <pin num="6" name="D2" type="passive"/>
+        <pin num="7" name="D1" type="passive"/>
+        <pin num="8" name="D1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC549">
+      <description>0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC549</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC550-D.pdf</field>
+        <field name="Description">0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Comparator">
+      <uri>/usr/share/kicad/symbols//Comparator.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Photon2">
+      <uri>/github/workspace/Libraries/Photon2.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Si4944DY">
+      <uri>/github/workspace/Libraries/Si4944DY.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/usr/share/kicad/symbols//Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3" class="Default">
+      <node ref="C201" pin="1" pintype="passive"/>
+      <node ref="R101" pin="1" pintype="passive"/>
+      <node ref="R102" pin="1" pintype="passive"/>
+      <node ref="R104" pin="1" pintype="passive"/>
+      <node ref="R202" pin="1" pintype="passive"/>
+      <node ref="R301" pin="1" pintype="passive"/>
+      <node ref="RV201" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV501" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U201" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="U601" pin="2" pinfunction="3V3" pintype="power_out"/>
+    </net>
+    <net code="2" name="+12V" class="Default">
+      <node ref="C401" pin="1" pintype="passive"/>
+      <node ref="C402" pin="1" pintype="passive"/>
+      <node ref="C701" pin="2" pintype="passive"/>
+      <node ref="C702" pin="1" pintype="passive"/>
+      <node ref="C703" pin="2" pintype="passive"/>
+      <node ref="D401" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D702" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D703" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J401" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TP702" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U701" pin="1" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="3" name="+VUSB" class="Default">
+      <node ref="D704" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="TP701" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U601" pin="26" pinfunction="VUSB" pintype="passive"/>
+    </net>
+    <net code="4" name="/SCHEMATIC/+5V" class="Default">
+      <node ref="C704" pin="2" pintype="passive"/>
+      <node ref="C705" pin="1" pintype="passive"/>
+      <node ref="D703" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D704" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U701" pin="3" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="5" name="/SCHEMATIC/+12V_FUSED" class="Default">
+      <node ref="D702" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F701" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/SCHEMATIC/+12V_IN" class="Default">
+      <node ref="D701" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="F701" pin="1" pintype="passive"/>
+      <node ref="J701" pin="1" pintype="passive"/>
+      <node ref="J702" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="7" name="/SCHEMATIC/ADC_NTC" class="Default">
+      <node ref="R302" pin="2" pintype="passive"/>
+      <node ref="U601" pin="8" pinfunction="ADC_0" pintype="input"/>
+    </net>
+    <net code="8" name="/SCHEMATIC/ADC_POT" class="Default">
+      <node ref="R503" pin="1" pintype="passive"/>
+      <node ref="U601" pin="6" pinfunction="ADC_5" pintype="input"/>
+    </net>
+    <net code="9" name="/SCHEMATIC/AMP_BASE" class="Default">
+      <node ref="C101" pin="2" pintype="passive"/>
+      <node ref="Q101" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R102" pin="2" pintype="passive"/>
+      <node ref="R103" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="/SCHEMATIC/AMP_EMITTER" class="Default">
+      <node ref="Q101" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R105" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="/SCHEMATIC/AMP_OUT" class="Default">
+      <node ref="D101" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q101" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R104" pin="2" pintype="passive"/>
+      <node ref="TP101" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="12" name="/SCHEMATIC/EMITTER_BYPASS" class="Default">
+      <node ref="C102" pin="1" pintype="passive"/>
+      <node ref="R105" pin="2" pintype="passive"/>
+      <node ref="R106" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="/SCHEMATIC/ENV" class="Default">
+      <node ref="C103" pin="1" pintype="passive"/>
+      <node ref="D101" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R107" pin="1" pintype="passive"/>
+      <node ref="R201" pin="1" pintype="passive"/>
+      <node ref="TP201" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U201" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="14" name="/SCHEMATIC/FAN-" class="Default">
+      <node ref="D401" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J401" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q401" pin="7" pinfunction="D1" pintype="passive"/>
+      <node ref="Q401" pin="8" pinfunction="D1" pintype="passive"/>
+    </net>
+    <net code="15" name="/SCHEMATIC/GATE" class="Default">
+      <node ref="Q401" pin="2" pinfunction="G1" pintype="passive"/>
+      <node ref="R401" pin="1" pintype="passive"/>
+      <node ref="R402" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="/SCHEMATIC/GPIO_BTN" class="Default">
+      <node ref="C501" pin="1" pintype="passive"/>
+      <node ref="SW501" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U601" pin="9" pinfunction="D19" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/SCHEMATIC/GPIO_SOUND" class="Default">
+      <node ref="C202" pin="1" pintype="passive"/>
+      <node ref="R201" pin="2" pintype="passive"/>
+      <node ref="R202" pin="2" pintype="passive"/>
+      <node ref="U201" pin="1" pintype="open_collector"/>
+      <node ref="U601" pin="19" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/SCHEMATIC/LED_GRN" class="Default">
+      <node ref="R502" pin="2" pintype="passive"/>
+      <node ref="U601" pin="15" pinfunction="D8" pintype="output"/>
+    </net>
+    <net code="19" name="/SCHEMATIC/LED_RED" class="Default">
+      <node ref="R501" pin="1" pintype="passive"/>
+      <node ref="U601" pin="14" pinfunction="D9" pintype="input"/>
+    </net>
+    <net code="20" name="/SCHEMATIC/MIC" class="Default">
+      <node ref="C101" pin="1" pintype="passive"/>
+      <node ref="MK101" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="R101" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="/SCHEMATIC/NTC_DIV" class="Default">
+      <node ref="C301" pin="1" pintype="passive"/>
+      <node ref="R301" pin="2" pintype="passive"/>
+      <node ref="R302" pin="1" pintype="passive"/>
+      <node ref="TH301" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="/SCHEMATIC/POT_DIV" class="Default">
+      <node ref="C502" pin="2" pintype="passive"/>
+      <node ref="R503" pin="2" pintype="passive"/>
+      <node ref="RV501" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="23" name="/SCHEMATIC/PWM_FAN" class="Default">
+      <node ref="R401" pin="2" pintype="passive"/>
+      <node ref="TP401" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U601" pin="7" pinfunction="A2~" pintype="input"/>
+    </net>
+    <net code="24" name="/SCHEMATIC/THRES_REF" class="Default">
+      <node ref="RV201" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U201" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="25" name="/SCHEMATIC/UNUSED" class="Default">
+      <node ref="Q401" pin="3" pinfunction="S2" pintype="passive"/>
+      <node ref="Q401" pin="4" pinfunction="G2" pintype="passive"/>
+    </net>
+    <net code="26" name="GND" class="Default">
+      <node ref="C102" pin="2" pintype="passive"/>
+      <node ref="C103" pin="2" pintype="passive"/>
+      <node ref="C201" pin="2" pintype="passive"/>
+      <node ref="C202" pin="2" pintype="passive"/>
+      <node ref="C301" pin="2" pintype="passive"/>
+      <node ref="C401" pin="2" pintype="passive"/>
+      <node ref="C402" pin="2" pintype="passive"/>
+      <node ref="C501" pin="2" pintype="passive"/>
+      <node ref="C502" pin="1" pintype="passive"/>
+      <node ref="C701" pin="1" pintype="passive"/>
+      <node ref="C702" pin="2" pintype="passive"/>
+      <node ref="C703" pin="1" pintype="passive"/>
+      <node ref="C704" pin="1" pintype="passive"/>
+      <node ref="C705" pin="2" pintype="passive"/>
+      <node ref="D501" pin="2" pinfunction="K" pintype="input"/>
+      <node ref="D701" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="H901" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H902" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H903" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H904" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J701" pin="2" pintype="passive"/>
+      <node ref="J702" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="MK101" pin="1" pinfunction="-" pintype="passive"/>
+      <node ref="Q401" pin="1" pinfunction="S1" pintype="passive"/>
+      <node ref="R103" pin="2" pintype="passive"/>
+      <node ref="R106" pin="2" pintype="passive"/>
+      <node ref="R107" pin="2" pintype="passive"/>
+      <node ref="R402" pin="2" pintype="passive"/>
+      <node ref="RV201" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV501" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW501" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TH301" pin="2" pintype="passive"/>
+      <node ref="TP901" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP902" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U201" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U201" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U201" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="U601" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U701" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="27" name="Net-(D501-A1)" class="Default">
+      <node ref="D501" pin="1" pinfunction="A1" pintype="input"/>
+      <node ref="R501" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(D501-A2)" class="Default">
+      <node ref="D501" pin="3" pinfunction="A2" pintype="input"/>
+      <node ref="R502" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="unconnected-(J701-Pad3)" class="Default">
+      <node ref="J701" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(Q401-D2-Pad5)" class="Default">
+      <node ref="Q401" pin="5" pinfunction="D2" pintype="passive+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(Q401-D2-Pad6)" class="Default">
+      <node ref="Q401" pin="6" pinfunction="D2" pintype="passive+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U201-Pad7)" class="Default">
+      <node ref="U201" pin="7" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U601-A0-Pad5)" class="Default">
+      <node ref="U601" pin="5" pinfunction="A0" pintype="input+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U601-D3-Pad20)" class="Default">
+      <node ref="U601" pin="20" pinfunction="D3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U601-D4-Pad21)" class="Default">
+      <node ref="U601" pin="21" pinfunction="D4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U601-D5-Pad22)" class="Default">
+      <node ref="U601" pin="22" pinfunction="D5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U601-D6-Pad23)" class="Default">
+      <node ref="U601" pin="23" pinfunction="D6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U601-D7-Pad24)" class="Default">
+      <node ref="U601" pin="24" pinfunction="D7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U601-D10-Pad25)" class="Default">
+      <node ref="U601" pin="25" pinfunction="D10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U601-EN-Pad27)" class="Default">
+      <node ref="U601" pin="27" pinfunction="EN" pintype="input+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U601-LI+-Pad28)" class="Default">
+      <node ref="U601" pin="28" pinfunction="LI+" pintype="power_out+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U601-MI-Pad13)" class="Default">
+      <node ref="U601" pin="13" pinfunction="MI" pintype="input+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U601-MO-Pad12)" class="Default">
+      <node ref="U601" pin="12" pinfunction="MO" pintype="output+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U601-MODE-Pad3)" class="Default">
+      <node ref="U601" pin="3" pinfunction="MODE" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U601-NC-Pad16)" class="Default">
+      <node ref="U601" pin="16" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U601-RST-Pad1)" class="Default">
+      <node ref="U601" pin="1" pinfunction="RST" pintype="input+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U601-S3-Pad10)" class="Default">
+      <node ref="U601" pin="10" pinfunction="S3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U601-SCK-Pad11)" class="Default">
+      <node ref="U601" pin="11" pinfunction="SCK" pintype="output+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U601-SCL~-Pad18)" class="Default">
+      <node ref="U601" pin="18" pinfunction="SCL~" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U601-SDA-Pad17)" class="Default">
+      <node ref="U601" pin="17" pinfunction="SDA" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>

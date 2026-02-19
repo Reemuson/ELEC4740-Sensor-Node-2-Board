@@ -1,0 +1,625 @@
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>Bill of Materials</title>
+<style>
+ .cell-title { vertical-align: bottom; }
+ .cell-info { vertical-align: top; padding: 1em;}
+ .cell-extra-info { vertical-align: top; padding: 1em;}
+ .cell-stats { vertical-align: top; padding: 1em;}
+ .title { font-size:2.5em; font-weight: bold; }
+ .subtitle { font-size:1.5em; font-weight: bold; }
+ .h2 { font-size:1.5em; font-weight: bold; }
+ .td-empty0 { text-align: center; background-color: #F57676;}
+ .td-gen0 { text-align: center; background-color: #DCF5E4;}
+ .td-kicad0 { text-align: center; background-color: #F5DCA9;}
+ .td-user0 { text-align: center; background-color: #DCEFF5;}
+ .td-empty1 { text-align: center; background-color: #FF8080;}
+ .td-gen1 { text-align: center; background-color: #E6FFEE;}
+ .td-kicad1 { text-align: center; background-color: #FFE6B3;}
+ .td-user1 { text-align: center; background-color: #E6F9FF;}
+ .td-nocolor { text-align: center; }
+ .color-ref { margin: 25px 0; }
+ .color-ref th { text-align: left }
+ .color-ref td { padding: 5px 20px; }
+ .head-table { margin-bottom: 2em; }
+ .centered-checkmark { font-size: 30vw; text-align: center; color: green; }
+ .tg-sort-header::-moz-selection{background:0 0}
+ .tg-sort-header::selection{background:0 0}.tg-sort-header{cursor:pointer}
+ .tg-sort-header:after{content:'';float:right;border-width:0 5px 5px;border-style:solid;
+                       border-color:#ffffff transparent;visibility:hidden;opacity:.6}
+ .tg-sort-header:hover:after{visibility:visible}
+ .tg-sort-asc:after,.tg-sort-asc:hover:after,.tg-sort-desc:after{visibility:visible;opacity:1}
+ .tg-sort-desc:after{border-bottom:none;border-width:5px 5px 0}
+
+ .content-table {
+   border-collapse:
+   collapse;
+   margin-top: 5px;
+   margin-bottom: 4em;
+   font-size: 0.9em;
+   font-family: sans-serif;
+   min-width: 400px;
+   border-radius: 5px 5px 0 0;
+   overflow: hidden;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+ }
+ .content-table thead tr { background-color: #0e4e8e; color: #ffffff; text-align: left; }
+ .content-table th, .content-table td { padding: 12px 15px; }
+ .content-table tbody tr { border-bottom: 1px solid #dddddd; }
+ .content-table tbody tr:nth-of-type(even) { background-color: #f3f3f3; }
+ .content-table tbody tr:last-of-type { border-bottom: 2px solid #0e4e8e; }
+ .content-table * tr:hover > td { background-color: @bgl@ !important }
+
+ .content-table {
+   border-collapse:
+   collapse;
+   margin-top: 5px;
+   margin-bottom: 4em;
+   font-size: 0.9em;
+   font-family: sans-serif;
+   min-width: 400px;
+   border-radius: 5px 5px 0 0;
+   overflow: hidden;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+ }
+ .content-table thead tr { background-color: @bg@; color: #ffffff; text-align: left; }
+ .content-table th, .content-table td { padding: 12px 15px; }
+ .content-table tbody tr { border-bottom: 1px solid #dddddd; }
+ .content-table tbody tr:nth-of-type(even) { background-color: #f3f3f3; }
+ .content-table tbody tr:last-of-type { border-bottom: 2px solid @bg@; }
+ .content-table * tr:hover > td { background-color: #3e7ebe !important }
+</style>
+</head>
+<body>
+<table class="head-table">
+<tr>
+ <td rowspan="2">
+ </td>
+ <td colspan="2" class="cell-title">
+  <div class="title">Bill of Materials</div>
+ </td>
+</tr>
+<tr>
+ <td class="cell-info">
+   <b>Schematic</b>: Sensor-Node-2-Board<br>
+   <b>Variant</b>: PRELIMINARY<br>
+   <b>Revision</b>: + (Unreleased)<br>
+   <b>Date</b>: 2025-01-12<br>
+   <b>KiCad Version</b>: 9.0.7+1<br>
+ </td>
+ <td class="cell-stats">
+   <b>Component Groups</b>: 32<br>
+   <b>Component Count</b>: 52 (per PCB)<br>
+
+   <b>Fitted Components</b>: 52 (per PCB)<br>
+   <b>Number of PCBs</b>: 1<br>
+   <b>Total Components</b>: 52 (for 1 PCBs)<br>
+ </td>
+</tr>
+</table>
+<h2>Component Groups</h2>
+<table class="content-table">
+ <thead>
+  <tr>
+   <th class="th-gen">Row</th>
+   <th class="th-gen">Quantity Per PCB</th>
+   <th class="th-kicad">References</th>
+   <th class="th-kicad">Value</th>
+   <th class="th-kicad">Datasheet</th>
+   <th class="th-kicad">Footprint</th>
+   <th class="th-user">Description</th>
+   <th class="th-user">Manufacturer</th>
+   <th class="th-user">MPN</th>
+   <th class="th-user">Supplier Part Number</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr id="0">
+   <td class="td-gen0">1</td>
+   <td class="td-gen0">8</td>
+   <td class="td-kicad0"><div id="C704"></div><div id="C703"></div><div id="C701"></div><div id="C502"></div><div id="C501"></div><div id="C402"></div><div id="C301"></div><div id="C201"></div>C201 C301 C402 C501 C502 C701 C703 C704</td>
+   <td class="td-kicad0">100n</td>
+   <td class="td-empty0">~</td>
+   <td class="td-kicad0">C_Disc_D5.0mm_W2.5mm_P5.00mm</td>
+   <td class="td-user0">CAP CER Y5U 100N 50V 20% P=5MM</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="1">
+   <td class="td-gen1">2</td>
+   <td class="td-gen1">2</td>
+   <td class="td-kicad1"><div id="C202"></div><div id="C101"></div>C101 C202</td>
+   <td class="td-kicad1">1u</td>
+   <td class="td-empty1">~</td>
+   <td class="td-kicad1">C_Rect_L16.5mm_W6.0mm_P15.00mm_MKT</td>
+   <td class="td-user1">CAP GRN 1U 100V P=11MM CAP MONO 1U 50V</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="2">
+   <td class="td-gen0">3</td>
+   <td class="td-gen0">2</td>
+   <td class="td-kicad0"><div id="C103"></div><div id="C102"></div>C102 C103</td>
+   <td class="td-kicad0">3.3u</td>
+   <td class="td-empty0">~</td>
+   <td class="td-kicad0">CP_Radial_D5.0mm_P2.00mm</td>
+   <td class="td-user0">CAP LL CD81 RB 3U3 50V P=2MM 5X11MM</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="3">
+   <td class="td-gen1">4</td>
+   <td class="td-gen1">2</td>
+   <td class="td-kicad1"><div id="C705"></div><div id="C401"></div>C401 C705</td>
+   <td class="td-kicad1">10u</td>
+   <td class="td-empty1">~</td>
+   <td class="td-kicad1">CP_Radial_D5.0mm_P2.00mm</td>
+   <td class="td-user1">Polarized capacitor</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="4">
+   <td class="td-gen0">5</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="C702"></div>C702</td>
+   <td class="td-kicad0">47u</td>
+   <td class="td-empty0">~</td>
+   <td class="td-kicad0">CP_Radial_D8.0mm_P3.50mm</td>
+   <td class="td-user0">Polarized capacitor</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="5">
+   <td class="td-gen1">6</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="D703"></div>D703</td>
+   <td class="td-kicad1">1N4004</td>
+   <td class="td-kicad1"><a href="http://www.vishay.com/docs/88503/1n4001.pdf">http://www.vishay.com/docs/88503/1n4001.pdf</a></td>
+   <td class="td-kicad1">D_DO-41_SOD81_P7.62mm_Horizontal</td>
+   <td class="td-user1">400V 1A General Purpose Rectifier Diode, DO-41</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="6">
+   <td class="td-gen0">7</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="D101"></div>D101</td>
+   <td class="td-kicad0">1N4148</td>
+   <td class="td-kicad0"><a href="https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</a></td>
+   <td class="td-kicad0">D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp</td>
+   <td class="td-user0">DIODE 1N4148 FAST 100V 250MA DO41</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="7">
+   <td class="td-gen1">8</td>
+   <td class="td-gen1">2</td>
+   <td class="td-kicad1"><div id="D704"></div><div id="D401"></div>D401 D704</td>
+   <td class="td-kicad1">1N5819</td>
+   <td class="td-kicad1"><a href="http://www.vishay.com/docs/88525/1n5817.pdf">http://www.vishay.com/docs/88525/1n5817.pdf</a></td>
+   <td class="td-kicad1">D_DO-41_SOD81_P7.62mm_Horizontal</td>
+   <td class="td-user1">DIODE 1N5819 SCHOTTKY 40V 1A DO41</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="8">
+   <td class="td-gen0">9</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="D702"></div>D702</td>
+   <td class="td-kicad0">1N5822</td>
+   <td class="td-kicad0"><a href="http://www.vishay.com/docs/88526/1n5820.pdf">http://www.vishay.com/docs/88526/1n5820.pdf</a></td>
+   <td class="td-kicad0">D_DO-201AD_P15.24mm_Horizontal</td>
+   <td class="td-user0">DIODE 1N5822 SCHOTTKY 40V 3A DO41</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="9">
+   <td class="td-gen1">10</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="D501"></div>D501</td>
+   <td class="td-kicad1">LED_STATUS</td>
+   <td class="td-empty1">~</td>
+   <td class="td-kicad1">LED_D5.0mm-3</td>
+   <td class="td-user1">LED 5MM DIF BICOL COM CATH ORG/GRN 70/80</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="10">
+   <td class="td-gen0">11</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="D701"></div>D701</td>
+   <td class="td-kicad0">P4KE16AC</td>
+   <td class="td-kicad0"><a href="https://www.jaycar.com.au/p4ke-13-6v-16a-standoff-400w-ac/p/ZR1162">https://www.jaycar.com.au/p4ke-13-6v-16a-standoff-400w-ac/p/ZR1162</a></td>
+   <td class="td-kicad0">D_DO-41_SOD81_P7.62mm_Horizontal</td>
+   <td class="td-user0">Bidirectional transient-voltage-suppression diode</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="11">
+   <td class="td-gen1">12</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="F701"></div>F701</td>
+   <td class="td-kicad1">1A M205</td>
+   <td class="td-empty1">~</td>
+   <td class="td-kicad1">Fuseholder_Clip-5x20mm_Eaton_1A5601-01_Inline_P20.80x6.76mm_D1.70mm_Horizontal</td>
+   <td class="td-user1">Fuse</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="12">
+   <td class="td-gen0">13</td>
+   <td class="td-gen0">3</td>
+   <td class="td-kicad0"><div id="J702"></div><div id="J701"></div><div id="J401"></div>J401 J701 J702</td>
+   <td class="td-kicad0">EBWA-02-B</td>
+   <td class="td-empty0">~</td>
+   <td class="td-kicad0">TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</td>
+   <td class="td-user0">TERMINAL PCB SCREW 2WAY BLU P=5MM SKT PCB DC SPST SWITCHED 2.1MM</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="13">
+   <td class="td-gen1">14</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="MK101"></div>MK101</td>
+   <td class="td-kicad1">MIC</td>
+   <td class="td-empty1">~</td>
+   <td class="td-kicad1">POM-2244P-C3310-2-R</td>
+   <td class="td-user1">MIC PCB 2PIN 1.5V D10XH6.5MM</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="14">
+   <td class="td-gen0">15</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="Q101"></div>Q101</td>
+   <td class="td-kicad0">BC549</td>
+   <td class="td-kicad0"><a href="https://www.onsemi.com/pub/Collateral/BC550-D.pdf">https://www.onsemi.com/pub/Collateral/BC550-D.pdf</a></td>
+   <td class="td-kicad0">TO-92_Inline</td>
+   <td class="td-user0">TRAN BC540 NPN 30V 100MA TO92</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="15">
+   <td class="td-gen1">16</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="Q401"></div>Q401</td>
+   <td class="td-kicad1">Si4944DY</td>
+   <td class="td-kicad1"><a href="https://www.digikey.com.au/en/htmldatasheets/production/831318/0/0/2/si4944dy">https://www.digikey.com.au/en/htmldatasheets/production/831318/0/0/2/si4944dy</a></td>
+   <td class="td-kicad1">SO-8_3.9x4.9mm_P1.27mm</td>
+   <td class="td-user1">SMD MOSFET SI4944DY DUAL N-CH 30V SOIC8</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="16">
+   <td class="td-gen0">17</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="R105"></div>R105</td>
+   <td class="td-kicad0">62</td>
+   <td class="td-empty0">~</td>
+   <td class="td-kicad0">R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</td>
+   <td class="td-user0">RES 0.5W CARB 62R</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="17">
+   <td class="td-gen1">18</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="R401"></div>R401</td>
+   <td class="td-kicad1">100</td>
+   <td class="td-empty1">~</td>
+   <td class="td-kicad1">R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</td>
+   <td class="td-user1">RES 0.5W CARB 100R</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="18">
+   <td class="td-gen0">19</td>
+   <td class="td-gen0">2</td>
+   <td class="td-kicad0"><div id="R502"></div><div id="R501"></div>R501 R502</td>
+   <td class="td-kicad0">120</td>
+   <td class="td-empty0">~</td>
+   <td class="td-kicad0">R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</td>
+   <td class="td-user0">RES 0.5W CARB 120R</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="19">
+   <td class="td-gen1">20</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="R106"></div>R106</td>
+   <td class="td-kicad1">560</td>
+   <td class="td-empty1">~</td>
+   <td class="td-kicad1">R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</td>
+   <td class="td-user1">RES 0.5W CARB 560R</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="20">
+   <td class="td-gen0">21</td>
+   <td class="td-gen0">2</td>
+   <td class="td-kicad0"><div id="R503"></div><div id="R302"></div>R302 R503</td>
+   <td class="td-kicad0">1k</td>
+   <td class="td-empty0">~</td>
+   <td class="td-kicad0">R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</td>
+   <td class="td-user0">RES 0.5W CARB 1K</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="21">
+   <td class="td-gen1">22</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="R104"></div>R104</td>
+   <td class="td-kicad1">3.3k</td>
+   <td class="td-empty1">~</td>
+   <td class="td-kicad1">R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</td>
+   <td class="td-user1">RES 0.5W CARB 3.3K</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="22">
+   <td class="td-gen0">23</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="R101"></div>R101</td>
+   <td class="td-kicad0">4.7k</td>
+   <td class="td-empty0">~</td>
+   <td class="td-kicad0">R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</td>
+   <td class="td-user0">RES 0.5W CARB 4.7K</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="23">
+   <td class="td-gen1">24</td>
+   <td class="td-gen1">4</td>
+   <td class="td-kicad1"><div id="RV501"></div><div id="RV201"></div><div id="R202"></div><div id="R103"></div>R103 R202 RV201 RV501</td>
+   <td class="td-kicad1">10k</td>
+   <td class="td-empty1">~</td>
+   <td class="td-kicad1">R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</td>
+   <td class="td-user1">RES 0.5W CARB 10K TRIMPOT 25TURN 10K TOP ADJ POT PCB LIN SG 16MM B10K STD IMP SHAFT</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="24">
+   <td class="td-gen0">25</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="R102"></div>R102</td>
+   <td class="td-kicad0">22k</td>
+   <td class="td-empty0">~</td>
+   <td class="td-kicad0">R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</td>
+   <td class="td-user0">RES 0.5W CARB 22K</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="25">
+   <td class="td-gen1">26</td>
+   <td class="td-gen1">3</td>
+   <td class="td-kicad1"><div id="R402"></div><div id="R301"></div><div id="R107"></div>R107 R301 R402</td>
+   <td class="td-kicad1">100k</td>
+   <td class="td-empty1">~</td>
+   <td class="td-kicad1">R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</td>
+   <td class="td-user1">RES 0.5W CARB 100K</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="26">
+   <td class="td-gen0">27</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="R201"></div>R201</td>
+   <td class="td-kicad0">1Meg</td>
+   <td class="td-empty0">~</td>
+   <td class="td-kicad0">R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical</td>
+   <td class="td-user0">RES 0.5W CARB 1M</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="27">
+   <td class="td-gen1">28</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="SW501"></div>SW501</td>
+   <td class="td-kicad1">SW_HELP</td>
+   <td class="td-empty1">~</td>
+   <td class="td-kicad1">SW_SPST_Omron_B3F-40xx</td>
+   <td class="td-user1">SWITCH PCB TACT SPST SQR STEM 11.9X11.9</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="28">
+   <td class="td-gen0">29</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="TH301"></div>TH301</td>
+   <td class="td-kicad0">NTC100K</td>
+   <td class="td-empty0">~</td>
+   <td class="td-kicad0">PinHeader_1x02_P2.54mm_Vertical</td>
+   <td class="td-user0">THERMISTOR NTC GLASS 100KR 250DEG</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="29">
+   <td class="td-gen1">30</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="U701"></div>U701</td>
+   <td class="td-kicad1">L7805</td>
+   <td class="td-kicad1"><a href="http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf">http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</a></td>
+   <td class="td-kicad1">TO-220-3_Vertical</td>
+   <td class="td-user1">VREG 7805 +5V 1A TO220</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="30">
+   <td class="td-gen0">31</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="U201"></div>U201</td>
+   <td class="td-kicad0">LM393</td>
+   <td class="td-kicad0"><a href="http://www.ti.com/lit/ds/symlink/lm393.pdf">http://www.ti.com/lit/ds/symlink/lm393.pdf</a></td>
+   <td class="td-kicad0">DIP-8_W7.62mm_Socket</td>
+   <td class="td-user0">IC LM393N LO-PWR DUAL COMPARATOR DIP8</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="31">
+   <td class="td-gen1">32</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="U601"></div>U601</td>
+   <td class="td-kicad1">Photon 2</td>
+   <td class="td-kicad1"><a href="https://docs.particle.io/reference/datasheets/wi-fi/photon-2-datasheet/">https://docs.particle.io/reference/datasheets/wi-fi/photon-2-datasheet/</a></td>
+   <td class="td-kicad1">PHOTON2</td>
+   <td class="td-user1">PHOTON 2 [X1]</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+ </tbody>
+</table>
+<table class="color-ref">
+<tr><th>Color reference for columns:</th></tr>
+<tr><td class="td-kicad0">KiCad Fields (default)</td></tr>
+<tr><td class="td-gen0">Generated Fields</td></tr>
+<tr><td class="td-user0">User Fields</td></tr>
+<tr><td class="td-empty0">Empty Fields</td></tr>
+</table>
+<script charset="utf-8">
+  var TGSort = window.TGSort || function(n) {
+    "use strict";
+    function r(n) { return n ? n.length : 0 }
+    function t(n, t, e, o = 0) { for (e = r(n); o < e; ++o) t(n[o], o) }
+    function e(n) { return n.split("").reverse().join("") }
+    function o(n) {
+      var e = n[0];
+      return t(n, function(n) {
+        for (; !n.startsWith(e);) e = e.substring(0, r(e) - 1)
+      }), r(e)
+    }
+    function u(n, r, e = []) {
+      return t(n, function(n) {
+        r(n) && e.push(n)
+      }), e
+    }
+    var a = parseFloat;
+    function i(n, r) {
+      return function(t) {
+        var e = "";
+        return t.replace(n, function(n, t, o) {
+          return e = t.replace(r, "") + "." + (o || "").substring(1)
+        }), a(e)
+      }
+    }
+    var s = i(/^(?:\s*)([+-]?(?:\d+)(?:,\d{3})*)(\.\d*)?$/g, /,/g),
+      c = i(/^(?:\s*)([+-]?(?:\d+)(?:\.\d{3})*)(,\d*)?$/g, /\./g);
+    function f(n) {
+      var t = a(n);
+      return !isNaN(t) && r("" + t) + 1 >= r(n) ? t : NaN
+    }
+    function d(n) {
+      var e = [],
+        o = n;
+      return t([f, s, c], function(u) {
+        var a = [],
+          i = [];
+        t(n, function(n, r) {
+          r = u(n), a.push(r), r || i.push(n)
+        }), r(i) < r(o) && (o = i, e = a)
+      }), r(u(o, function(n) {
+        return n == o[0]
+      })) == r(o) ? e : []
+    }
+    function v(n) {
+      if ("TABLE" == n.nodeName) {
+        for (var a = function(r) {
+            var e, o, u = [],
+              a = [];
+            return function n(r, e) {
+              e(r), t(r.childNodes, function(r) {
+                n(r, e)
+              })
+            }(n, function(n) {
+              "TR" == (o = n.nodeName) ? (e = [], u.push(e), a.push(n)) : "TD" != o && "TH" != o || e.push(n)
+            }), [u, a]
+          }(), i = a[0], s = a[1], c = r(i), f = c > 1 && r(i[0]) < r(i[1]) ? 1 : 0, v = f + 1, p = i[f], h = r(p), l = [], g = [], N = [], m = v; m < c; ++m) {
+          for (var T = 0; T < h; ++T) {
+            r(g) < h && g.push([]);
+            var C = i[m][T],
+              L = C.textContent || C.innerText || "";
+            g[T].push(L.trim())
+          }
+          N.push(m - v)
+        }
+        t(p, function(n, t) {
+          l[t] = 0;
+          var a = n.classList;
+          a.add("tg-sort-header"), n.addEventListener("click", function() {
+            var n = l[t];
+            ! function() {
+              for (var n = 0; n < h; ++n) {
+                var r = p[n].classList;
+                r.remove("tg-sort-asc"), r.remove("tg-sort-desc"), l[n] = 0
+              }
+            }(), (n = 1 == n ? -1 : +!n) && a.add(n > 0 ? "tg-sort-asc" : "tg-sort-desc"), l[t] = n;
+            var i, f = g[t],
+              m = function(r, t) {
+                return n * f[r].localeCompare(f[t]) || n * (r - t)
+              },
+              T = function(n) {
+                var t = d(n);
+                if (!r(t)) {
+                  var u = o(n),
+                    a = o(n.map(e));
+                  t = d(n.map(function(n) {
+                    return n.substring(u, r(n) - a)
+                  }))
+                }
+                return t
+              }(f);
+            (r(T) || r(T = r(u(i = f.map(Date.parse), isNaN)) ? [] : i)) && (m = function(r, t) {
+              var e = T[r],
+                o = T[t],
+                u = isNaN(e),
+                a = isNaN(o);
+              return u && a ? 0 : u ? -n : a ? n : e > o ? n : e < o ? -n : n * (r - t)
+            });
+            var C, L = N.slice();
+            L.sort(m);
+            for (var E = v; E < c; ++E)(C = s[E].parentNode).removeChild(s[E]);
+            for (E = v; E < c; ++E) C.appendChild(s[v + L[E - v]])
+          })
+        })
+      }
+    }
+    n.addEventListener("DOMContentLoaded", function() {
+      for (var t = n.getElementsByClassName("content-table"), e = 0; e < r(t); ++e) try {
+        v(t[e])
+      } catch (n) {}
+    })
+  }(document)
+</script>
+</body></html>
