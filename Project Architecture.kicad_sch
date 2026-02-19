@@ -6733,12 +6733,6 @@
 		(uuid "75ee02f2-5d6b-452b-b680-ab8d0cae7920")
 	)
 	(junction
-		(at 145.415 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c4a30fb-6b23-47a0-a629-67fd75e9bb1a")
-	)
-	(junction
 		(at 154.94 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6797,6 +6791,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b50e6db1-4915-4a12-a224-66b11637956d")
+	)
+	(junction
+		(at 146.05 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7f5494c-4875-4e2c-a7d6-449d1bd72267")
 	)
 	(junction
 		(at 312.42 127)
@@ -7294,7 +7294,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 55.245) (xy 251.46 63.5)
+			(xy 251.46 54.61) (xy 251.46 63.5)
 		)
 		(stroke
 			(width 0)
@@ -7381,6 +7381,16 @@
 			(type default)
 		)
 		(uuid "3798b4c9-cc3a-489b-949e-f757f4a7aa29")
+	)
+	(wire
+		(pts
+			(xy 146.05 63.5) (xy 147.32 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3812734c-00ab-47b8-8ec4-09083757b589")
 	)
 	(wire
 		(pts
@@ -7724,16 +7734,6 @@
 	)
 	(wire
 		(pts
-			(xy 145.415 63.5) (xy 147.32 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77d76e9e-70b9-4f64-a201-570af0934c6f")
-	)
-	(wire
-		(pts
 			(xy 88.9 69.85) (xy 97.79 69.85)
 		)
 		(stroke
@@ -7924,7 +7924,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 63.5) (xy 145.415 63.5)
+			(xy 135.89 63.5) (xy 146.05 63.5)
 		)
 		(stroke
 			(width 0)
@@ -8474,7 +8474,7 @@
 	)
 	(wire
 		(pts
-			(xy 145.415 55.245) (xy 145.415 63.5)
+			(xy 146.05 54.61) (xy 146.05 63.5)
 		)
 		(stroke
 			(width 0)
@@ -14754,7 +14754,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 145.415 55.245 0)
+		(at 146.05 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14763,7 +14763,7 @@
 		(fields_autoplaced yes)
 		(uuid "75a7f698-7e95-4748-8b85-114fc931fb71")
 		(property "Reference" "TP101"
-			(at 147.32 50.6729 0)
+			(at 147.955 50.0379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14772,7 +14772,7 @@
 			)
 		)
 		(property "Value" "AMP_OUT"
-			(at 147.32 53.2129 0)
+			(at 147.955 52.5779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14781,7 +14781,7 @@
 			)
 		)
 		(property "Footprint" "RD-Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 150.495 55.245 0)
+			(at 151.13 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14790,7 +14790,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 150.495 55.245 0)
+			(at 151.13 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14799,7 +14799,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 145.415 55.245 0)
+			(at 146.05 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15652,7 +15652,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 251.46 55.245 0)
+		(at 251.46 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15661,7 +15661,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cde44ec-57eb-4c7f-afdd-a3de79c992d6")
 		(property "Reference" "TP201"
-			(at 253.365 50.6729 0)
+			(at 253.365 50.0379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15670,7 +15670,7 @@
 			)
 		)
 		(property "Value" "ENV"
-			(at 253.365 53.2129 0)
+			(at 253.365 52.5779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15679,7 +15679,7 @@
 			)
 		)
 		(property "Footprint" "RD-Testpoints:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 256.54 55.245 0)
+			(at 256.54 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15688,7 +15688,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 55.245 0)
+			(at 256.54 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15697,7 +15697,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 251.46 55.245 0)
+			(at 251.46 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
