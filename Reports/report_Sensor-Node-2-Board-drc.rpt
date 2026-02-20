@@ -1,5 +1,5 @@
 ** Drc report for Sensor-Node-2-Board.kicad_pcb **
-** Created on 2026-02-19T23:37:09+0000 **
+** Created on 2026-02-20T03:24:43+0000 **
 
 ** Found 26 DRC violations **
 [lib_footprint_mismatch]: Footprint 'C_Disc_D5.0mm_W2.5mm_P5.00mm' does not match copy in library 'Capacitor_THT'.
