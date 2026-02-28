@@ -11,21 +11,22 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "C502","100n","C_Disc_D5.0mm_W2.5mm_P5.00mm",40.0000,60.0000,0.0000,top
 "C701","100n","C_Disc_D5.0mm_W2.5mm_P5.00mm",38.0000,16.2600,180.0000,top
 "C702","47u","CP_Radial_D8.0mm_P3.50mm",34.0000,24.0000,0.0000,top
-"C703","100n","C_Disc_D5.0mm_W2.5mm_P5.00mm",47.5000,5.0000,180.0000,top
-"C704","100n","C_Disc_D5.0mm_W2.5mm_P5.00mm",22.5000,10.0000,0.0000,top
-"C705","10u","CP_Radial_D5.0mm_P2.00mm",27.5000,5.0000,180.0000,top
+"C703","100n","C_Disc_D5.0mm_W2.5mm_P5.00mm",52.5000,5.2500,180.0000,top
+"C704","100n","C_Disc_D5.0mm_W2.5mm_P5.00mm",19.0000,10.0000,0.0000,top
+"C705","10u","CP_Radial_D5.0mm_P2.00mm",22.4551,5.2500,180.0000,top
 "D101","1N4148","D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp",87.5000,65.0000,-90.0000,top
 "D401","1N5819","D_DO-41_SOD81_P7.62mm_Horizontal",15.0000,53.8100,-90.0000,top
 "D501","LED_STATUS","LED_D5.0mm-3",10.0400,85.0000,180.0000,top
-"D701","P4KE16AC","D_DO-41_SOD81_P7.62mm_Horizontal",13.9500,17.5000,-90.0000,top
+"D701","P4KE16","D_DO-41_SOD81_P10.16mm_Horizontal",27.5000,36.0000,0.0000,top
 "D702","1N5822","D_DO-201AD_P15.24mm_Horizontal",27.5000,16.2600,90.0000,top
-"D703","1N4004","D_DO-41_SOD81_P7.62mm_Horizontal",38.8100,10.0000,180.0000,top
-"D704","1N5819","D_DO-41_SOD81_P12.70mm_Horizontal",63.8500,5.0000,180.0000,top
-"F701","1A M205","Fuseholder_Clip-5x20mm_Eaton_1A5601-01_Inline_P20.80x6.76mm_D1.70mm_Horizontal",20.0000,14.0000,90.0000,top
-"FID901","FIDUCIAL","Fiducial_1mm_Mask2mm",12.5000,95.0000,0.0000,top
+"D703","1N4004","D_DO-41_SOD81_P7.62mm_Horizontal",39.5600,11.0000,180.0000,top
+"D704","1N5819","D_DO-41_SOD81_P12.70mm_Horizontal",71.3500,5.2500,180.0000,top
+"F701","500mA M205","Fuseholder_Clip-5x20mm_Eaton_1A5601-01_Inline_P20.80x6.76mm_D1.70mm_Horizontal",20.0000,14.0000,90.0000,top
+"FID901","FIDUCIAL","Fiducial_1mm_Mask2mm",10.0000,95.0000,0.0000,top
 "FID902","FIDUCIAL","Fiducial_1mm_Mask2mm",90.0000,95.0000,0.0000,top
-"FID903","FIDUCIAL","Fiducial_1mm_Mask2mm",87.5000,5.0000,0.0000,top
-"ID901","BOARD_STACKUP_MARKER","STACKUP_ID_2L_SML",81.0000,5.0000,0.0000,top
+"FID903","FIDUCIAL","Fiducial_1mm_Mask2mm",90.0000,5.0000,0.0000,top
+"HS701","Heatsink","Heatsink_6073B_19x9.5mm",35.7500,0.3625,180.0000,top
+"ID901","BOARD_STACKUP_MARKER","STACKUP_ID_2L",83.5000,5.0000,0.0000,top
 "J401","EBWA-02-B","TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",6.0000,52.5000,-90.0000,top
 "J701","PS0519","BarrelJack_Kycon_KLDX-0202-xC_Horizontal",14.7000,32.5000,0.0000,top
 "J702","EBWA-02-B","TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",6.0000,17.5000,-90.0000,top
@@ -55,10 +56,10 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "TP101","AMP_OUT","TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded",87.5000,55.0000,0.0000,top
 "TP201","ENV","TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded",75.0000,81.0000,0.0000,top
 "TP401","PWM_FAN","TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded",49.0000,55.0000,0.0000,top
-"TP701","+VUSB","TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded",72.5000,5.0000,0.0000,top
-"TP702","+12V","TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded",35.5000,32.5000,0.0000,top
+"TP701","+VUSB","TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded",77.0000,5.2500,0.0000,top
+"TP702","+12V","TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded",35.5000,32.0000,0.0000,top
 "TP901","GND","TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded",72.5000,70.0000,0.0000,top
 "TP902","GND","TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded",46.0000,37.0000,0.0000,top
 "U201","LM393","DIP-8_W7.62mm_Socket",73.6900,95.0000,0.0000,top
 "U601","Photon 2","PHOTON2",45.6700,33.7700,-90.0000,top
-"U701","L7805","TO-220-3_Vertical",38.2900,5.0000,180.0000,top
+"U701","L7805","TO-220-3_Vertical",38.2900,5.2500,180.0000,top

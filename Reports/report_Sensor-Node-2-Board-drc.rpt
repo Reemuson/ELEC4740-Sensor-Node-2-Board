@@ -1,7 +1,30 @@
 ** Drc report for Sensor-Node-2-Board.kicad_pcb **
-** Created on 2026-02-19T23:37:09+0000 **
+** Created on 2026-02-28T02:21:59+0000 **
 
-** Found 26 DRC violations **
+** Found 32 DRC violations **
+[items_not_allowed]: Items not allowed (keepout area)
+    ; error
+    @(204.56 mm, 174.0 mm): PTH pad 1 [+12V] of D703
+[clearance]: Clearance violation (netclass 'GND' clearance 0.2000 mm; actual 0.0000 mm)
+    ; error
+    @(225.99 mm, 151.25 mm): Via [/SCHEMATIC/GPIO_SOUND] on L1 (Sig, PWR) - L2 (Sig, GND)
+    @(165.0 mm, 85.0 mm): Zone [GND] on L2 (Sig, GND), priority 3
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2540 mm; actual 0.0905 mm)
+    ; error
+    @(225.99 mm, 151.25 mm): Via [/SCHEMATIC/GPIO_SOUND] on L1 (Sig, PWR) - L2 (Sig, GND)
+    @(165.0 mm, 85.0 mm): Zone [GND] on L2 (Sig, GND), priority 3
+[clearance]: Clearance violation (rule 'Minimum Trace Width and Spacing (outer layer)' clearance 0.2000 mm; actual 0.1405 mm)
+    ; error
+    @(225.99 mm, 148.01 mm): Track [/SCHEMATIC/GPIO_SOUND] on L2 (Sig, GND), length 3.2400 mm
+    @(165.0 mm, 85.0 mm): Zone [GND] on L2 (Sig, GND), priority 3
+[clearance]: Clearance violation (rule 'Minimum Trace Width and Spacing (outer layer)' clearance 0.2000 mm; actual 0.1505 mm)
+    ; error
+    @(226.0 mm, 151.0 mm): Track [/SCHEMATIC/GPIO_SOUND] on L2 (Sig, GND), length 0.2400 mm
+    @(165.0 mm, 85.0 mm): Zone [GND] on L2 (Sig, GND), priority 3
+[clearance]: Clearance violation (rule 'Minimum Trace Width and Spacing (outer layer)' clearance 0.2000 mm; actual 0.1405 mm)
+    ; error
+    @(226.0 mm, 151.24 mm): Track [/SCHEMATIC/GPIO_SOUND] on L2 (Sig, GND), length 0.0141 mm
+    @(165.0 mm, 85.0 mm): Zone [GND] on L2 (Sig, GND), priority 3
 [lib_footprint_mismatch]: Footprint 'C_Disc_D5.0mm_W2.5mm_P5.00mm' does not match copy in library 'Capacitor_THT'.
     ; warning
     @(218.7 mm, 125.0 mm): Footprint C301
@@ -10,10 +33,10 @@
     @(205.0 mm, 125.0 mm): Footprint C502
 [lib_footprint_mismatch]: Footprint 'C_Disc_D5.0mm_W2.5mm_P5.00mm' does not match copy in library 'Capacitor_THT'.
     ; warning
-    @(212.5 mm, 180.0 mm): Footprint C703
+    @(217.5 mm, 179.75 mm): Footprint C703
 [lib_footprint_mismatch]: Footprint 'C_Disc_D5.0mm_W2.5mm_P5.00mm' does not match copy in library 'Capacitor_THT'.
     ; warning
-    @(187.5 mm, 175.0 mm): Footprint C704
+    @(184.0 mm, 175.0 mm): Footprint C704
 [lib_footprint_mismatch]: Footprint 'D_DO-201AD_P15.24mm_Horizontal' does not match copy in library 'Diode_THT'.
     ; warning
     @(192.5 mm, 168.74 mm): Footprint D702
@@ -25,7 +48,7 @@
     @(260.0 mm, 105.04 mm): Footprint RV201
 [lib_footprint_mismatch]: Footprint 'CP_Radial_D5.0mm_P2.00mm' does not match copy in library 'Capacitor_THT'.
     ; warning
-    @(192.5 mm, 180.0 mm): Footprint C705
+    @(187.455112 mm, 179.75 mm): Footprint C705
 [lib_footprint_mismatch]: Footprint 'Potentiometer_Omeg_PC16BU_Vertical' does not match copy in library 'Potentiometer_THT'.
     ; warning
     @(211.0 mm, 115.0 mm): Footprint RV501
@@ -52,7 +75,7 @@
     @(180.0 mm, 127.5 mm): Footprint C401
 [lib_footprint_mismatch]: Footprint 'D_DO-41_SOD81_P12.70mm_Horizontal' does not match copy in library 'Diode_THT'.
     ; warning
-    @(228.85 mm, 180.0 mm): Footprint D704
+    @(236.35 mm, 179.75 mm): Footprint D704
 [lib_footprint_mismatch]: Footprint 'C_Disc_D5.0mm_W2.5mm_P5.00mm' does not match copy in library 'Capacitor_THT'.
     ; warning
     @(185.0 mm, 131.19 mm): Footprint C402
@@ -64,7 +87,7 @@
     @(238.69 mm, 90.0 mm): Footprint U201
 [lib_footprint_mismatch]: Footprint 'TO-220-3_Vertical' does not match copy in library 'Package_TO_SOT_THT'.
     ; warning
-    @(203.29 mm, 180.0 mm): Footprint U701
+    @(203.29 mm, 179.75 mm): Footprint U701
 [lib_footprint_mismatch]: Footprint 'PinHeader_1x02_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
     ; warning
     @(222.54 mm, 105.0 mm): Footprint TH301
@@ -81,7 +104,11 @@
     ; warning
     @(181.25 mm, 111.25 mm): Footprint C501
 
-** Found 0 unconnected pads **
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    ; error
+    @(184.25 mm, 148.75 mm): Zone [/SCHEMATIC/+12V_FUSED] on L1 (Sig, PWR), priority 2
+    @(192.5 mm, 149.0 mm): PTH pad 1 [/SCHEMATIC/+12V_FUSED] of D701
 
 ** Found 0 Footprint errors **
 

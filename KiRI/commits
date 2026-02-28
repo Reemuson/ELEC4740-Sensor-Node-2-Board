@@ -1,2 +1,4 @@
-_local_|2026-02-19|root|Local changes not committed|False|True
-e5948a1|2026-02-20|Reemuson|fix: image in readme|True|True
+_local_|2026-02-28|root|Local changes not committed|False|True
+08dd1ab|2026-02-28|Reemuson|fix: change status led wiring and improve 12V input protection|True|True
+3e27dbe|2026-02-19|GitHub Actions|Update Outputs (release)|False|True
+e62beec|2026-02-20|Reemuson|feat: release|True|True
