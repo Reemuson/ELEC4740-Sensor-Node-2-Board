@@ -1108,7 +1108,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_TVS"
+		(symbol "Device:D_Zener"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1127,7 +1127,7 @@
 					)
 				)
 			)
-			(property "Value" "D_TVS"
+			(property "Value" "D_Zener"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1153,7 +1153,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(property "Description" "Zener diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1162,7 +1162,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode TVS thyrector"
+			(property "ki_keywords" "diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1180,22 +1180,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_TVS_0_1"
+			(symbol "D_Zener_0_1"
 				(polyline
 					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1217,12 +1205,24 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "D_TVS_1_1"
+			(symbol "D_Zener_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
-					(name "A1"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1240,7 +1240,7 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
-					(name "A2"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3290,6 +3290,105 @@
 					(radius 1.27)
 					(stroke
 						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:Heatsink"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "HS"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Heatsink"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.3048 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.3048 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Heatsink"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "thermal heat temperature"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Heatsink_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Heatsink_0_1"
+				(polyline
+					(pts
+						(xy -0.3302 1.27) (xy -0.9652 1.27) (xy -0.9652 3.81) (xy -1.6002 3.81) (xy -1.6002 1.27) (xy -2.2352 1.27)
+						(xy -2.2352 3.81) (xy -2.8702 3.81) (xy -2.8702 0) (xy -0.9652 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3302 1.27) (xy -0.3302 3.81) (xy 0.3048 3.81) (xy 0.3048 1.27) (xy 0.9398 1.27) (xy 0.9398 3.81)
+						(xy 1.5748 3.81) (xy 1.5748 1.27) (xy 2.2098 1.27) (xy 2.2098 3.81) (xy 2.8448 3.81) (xy 2.8448 0)
+						(xy -0.9652 0)
+					)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -6697,12 +6796,6 @@
 		(uuid "5b3ba385-0903-4d74-990b-50c077048a55")
 	)
 	(junction
-		(at 227.33 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ba3a4ac-af3e-483d-9586-be9aeaecc5a1")
-	)
-	(junction
 		(at 137.16 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6823,6 +6916,12 @@
 		(uuid "e4556fc0-ecbc-409d-a0c5-4832497cf975")
 	)
 	(junction
+		(at 237.49 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4eab886-aa8a-440d-aa41-854eca42dbba")
+	)
+	(junction
 		(at 251.46 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6895,6 +6994,10 @@
 		(uuid "49ef90b8-78fc-4a5c-a049-897e13969579")
 	)
 	(no_connect
+		(at 82.55 215.9)
+		(uuid "74933a88-d687-43f4-bc93-9fbba7e77a86")
+	)
+	(no_connect
 		(at 107.95 198.12)
 		(uuid "8dfe8b05-d4a5-4c05-a8cc-1de9cd57be58")
 	)
@@ -6911,6 +7014,10 @@
 		(uuid "9a95e864-36eb-4dcb-823e-c04a43569437")
 	)
 	(no_connect
+		(at 82.55 213.36)
+		(uuid "a8535483-65b5-4c0d-8d1a-b74818ad3131")
+	)
+	(no_connect
 		(at 107.95 215.9)
 		(uuid "b3d44ce2-c84d-4734-ab2d-47452d0b7e59")
 	)
@@ -6923,10 +7030,6 @@
 		(uuid "c1698e47-b37a-4400-8fd7-f51a30177583")
 	)
 	(no_connect
-		(at 107.95 208.28)
-		(uuid "cc1458e5-ede2-4979-b677-293d5034b7da")
-	)
-	(no_connect
 		(at 82.55 185.42)
 		(uuid "d09a55c5-de9a-441f-a6f4-2bb8a15373cf")
 	)
@@ -6937,10 +7040,6 @@
 	(no_connect
 		(at 82.55 180.34)
 		(uuid "e3b7d859-08b8-4e2c-95a0-57573ca4e21b")
-	)
-	(no_connect
-		(at 107.95 210.82)
-		(uuid "ff4ba868-f5d3-4201-a151-36bf0c17ac59")
 	)
 	(wire
 		(pts
@@ -6994,7 +7093,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 185.42) (xy 240.03 185.42)
+			(xy 234.95 185.42) (xy 237.49 185.42)
 		)
 		(stroke
 			(width 0)
@@ -7011,6 +7110,16 @@
 			(type default)
 		)
 		(uuid "077fd74f-72c4-4e96-bb76-3b4ec1c16131")
+	)
+	(wire
+		(pts
+			(xy 237.49 185.42) (xy 237.49 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "095917f6-708b-4363-b92b-106ee8662e01")
 	)
 	(wire
 		(pts
@@ -7654,6 +7763,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 185.42) (xy 240.03 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ffc61a-2e4c-4e58-9e46-f4bc7e7eb115")
+	)
+	(wire
+		(pts
 			(xy 217.17 66.04) (xy 217.17 68.58)
 		)
 		(stroke
@@ -7661,16 +7780,6 @@
 			(type default)
 		)
 		(uuid "69add20c-e427-43a4-a2dc-58b108975733")
-	)
-	(wire
-		(pts
-			(xy 69.85 213.36) (xy 82.55 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a47d740-fef1-4e49-bba0-9612f4cfeca2")
 	)
 	(wire
 		(pts
@@ -7834,16 +7943,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 199.39) (xy 227.33 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "828d11ff-4fe4-4548-8a3b-f94da34911bf")
-	)
-	(wire
-		(pts
 			(xy 312.42 73.66) (xy 312.42 78.74)
 		)
 		(stroke
@@ -7904,16 +8003,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 185.42) (xy 229.87 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b8ac769-fe47-4191-8919-fe1193e4459f")
-	)
-	(wire
-		(pts
 			(xy 154.94 119.38) (xy 154.94 128.27)
 		)
 		(stroke
@@ -7941,16 +8030,6 @@
 			(type default)
 		)
 		(uuid "8c7de816-3d34-497f-b0c8-22f80559d2d8")
-	)
-	(wire
-		(pts
-			(xy 227.33 185.42) (xy 227.33 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d7ce9b5-3d91-47f9-9d09-1af3f9d86d31")
 	)
 	(wire
 		(pts
@@ -8204,6 +8283,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 210.82) (xy 120.65 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f73a13-abd5-402c-bb9f-b45f8a0b3657")
+	)
+	(wire
+		(pts
 			(xy 214.63 137.16) (xy 210.82 137.16)
 		)
 		(stroke
@@ -8274,6 +8363,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 199.39) (xy 237.49 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b50f1e13-5328-4d46-b80c-8b989e828096")
+	)
+	(wire
+		(pts
 			(xy 147.32 96.52) (xy 147.32 97.79)
 		)
 		(stroke
@@ -8304,23 +8403,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 204.47) (xy 227.33 204.47)
+			(xy 222.25 204.47) (xy 237.49 204.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b87940fe-59bc-445d-9652-3af0dfe29e2f")
-	)
-	(wire
-		(pts
-			(xy 69.85 215.9) (xy 82.55 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b95f381f-26de-4adf-b58b-9639cd25c833")
 	)
 	(wire
 		(pts
@@ -8774,6 +8863,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 208.28) (xy 120.65 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff397554-9805-45a4-b9fe-27b56569694f")
+	)
+	(wire
+		(pts
 			(xy 114.3 69.85) (xy 114.3 72.39)
 		)
 		(stroke
@@ -8802,16 +8901,6 @@
 		)
 		(uuid "0625f74c-1ee2-49fc-97ed-d44a8194b3e3")
 	)
-	(label "LED_RED"
-		(at 69.85 213.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "17264043-ea7a-41da-a674-10f1c5b96b83")
-	)
 	(label "ADC_NTC"
 		(at 120.65 134.62 180)
 		(effects
@@ -8831,6 +8920,16 @@
 			(justify right bottom)
 		)
 		(uuid "19cad4fb-29a4-4e5e-b4b7-43a2d76f4401")
+	)
+	(label "+12V_FUSED"
+		(at 237.49 191.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1d4d3658-b601-45d3-99f5-4a03cc76ee47")
 	)
 	(label "GPIO_BTN"
 		(at 69.85 200.66 0)
@@ -8942,16 +9041,6 @@
 		)
 		(uuid "4583f07b-080c-4bb7-94cd-e29cccf1d6aa")
 	)
-	(label "LED_GRN"
-		(at 69.85 215.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6119818c-0366-48eb-b80b-e60f98bce780")
-	)
 	(label "ADC_POT"
 		(at 69.85 193.04 0)
 		(effects
@@ -9012,15 +9101,15 @@
 		)
 		(uuid "6e3117f7-0560-452d-b092-c771132606a4")
 	)
-	(label "+12V_FUSED"
-		(at 240.03 185.42 90)
+	(label "LED_GRN"
+		(at 120.65 210.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "864db169-c407-45bf-b23d-d9da65fa1b8b")
+		(uuid "783f3cc0-b1d9-4835-adbf-00277d83eca1")
 	)
 	(label "ADC_NTC"
 		(at 69.85 198.12 0)
@@ -9041,6 +9130,16 @@
 			(justify right bottom)
 		)
 		(uuid "8fbba07c-9072-40de-b92a-8055c7bf55f3")
+	)
+	(label "LED_RED"
+		(at 120.65 208.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "99d60f84-ccf8-4abe-b4b9-cdba381f9352")
 	)
 	(label "PWM_FAN"
 		(at 137.16 139.7 90)
@@ -9354,7 +9453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RD-Symbols-Silkscreen:STACKUP_ID_2L_SML"
+		(property "Footprint" "RD-Symbols-Silkscreen:STACKUP_ID_2L"
 			(at 175.26 194.31 0)
 			(effects
 				(font
@@ -11381,28 +11480,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "1f6a1099-b1cb-482c-a032-0acf724024d7")
+			(uuid "1f6a1099-b1cb-482c-a032-0acf724024d8")
 		)
 		(pin "3"
-			(uuid "b84d4afc-1942-48e7-bce5-06c4199c3a13")
+			(uuid "b84d4afc-1942-48e7-bce5-06c4199c3a14")
 		)
 		(pin "6"
-			(uuid "3ddfd74f-9f2b-496d-8db0-375b8347bed9")
+			(uuid "3ddfd74f-9f2b-496d-8db0-375b8347beda")
 		)
 		(pin "8"
-			(uuid "1f62b45c-d387-4dae-af7f-8853387f669d")
+			(uuid "1f62b45c-d387-4dae-af7f-8853387f669e")
 		)
 		(pin "1"
-			(uuid "412ce77c-75fe-4eac-8305-f0a84dc573a2")
+			(uuid "412ce77c-75fe-4eac-8305-f0a84dc573a3")
 		)
 		(pin "5"
-			(uuid "6a5686da-7c49-4127-998f-4e3fa808cabc")
+			(uuid "6a5686da-7c49-4127-998f-4e3fa808cabd")
 		)
 		(pin "4"
-			(uuid "87350997-2762-4289-b5b8-fd887490d681")
+			(uuid "87350997-2762-4289-b5b8-fd887490d682")
 		)
 		(pin "2"
-			(uuid "c97f0df7-2a28-48fa-a6d8-e5bec4ae32a4")
+			(uuid "c97f0df7-2a28-48fa-a6d8-e5bec4ae32a5")
 		)
 		(instances
 			(project ""
@@ -11614,28 +11713,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "1f6a1099-b1cb-482c-a032-0acf724024d7")
+			(uuid "1f6a1099-b1cb-482c-a032-0acf724024d9")
 		)
 		(pin "3"
-			(uuid "b84d4afc-1942-48e7-bce5-06c4199c3a13")
+			(uuid "b84d4afc-1942-48e7-bce5-06c4199c3a15")
 		)
 		(pin "6"
-			(uuid "3ddfd74f-9f2b-496d-8db0-375b8347bed9")
+			(uuid "3ddfd74f-9f2b-496d-8db0-375b8347bedb")
 		)
 		(pin "8"
-			(uuid "1f62b45c-d387-4dae-af7f-8853387f669d")
+			(uuid "1f62b45c-d387-4dae-af7f-8853387f669f")
 		)
 		(pin "1"
-			(uuid "412ce77c-75fe-4eac-8305-f0a84dc573a2")
+			(uuid "412ce77c-75fe-4eac-8305-f0a84dc573a4")
 		)
 		(pin "5"
-			(uuid "6a5686da-7c49-4127-998f-4e3fa808cabc")
+			(uuid "6a5686da-7c49-4127-998f-4e3fa808cabe")
 		)
 		(pin "4"
-			(uuid "87350997-2762-4289-b5b8-fd887490d681")
+			(uuid "87350997-2762-4289-b5b8-fd887490d683")
 		)
 		(pin "2"
-			(uuid "c97f0df7-2a28-48fa-a6d8-e5bec4ae32a4")
+			(uuid "c97f0df7-2a28-48fa-a6d8-e5bec4ae32a6")
 		)
 		(instances
 			(project ""
@@ -12822,7 +12921,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 233.68 185.42 90)
+		(at 231.14 185.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12831,15 +12930,15 @@
 		(fields_autoplaced yes)
 		(uuid "4b0cfdf6-4fc0-4a39-87b6-ea5fad1f1abe")
 		(property "Reference" "F701"
-			(at 233.68 179.07 90)
+			(at 231.14 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1A M205"
-			(at 233.68 181.61 90)
+		(property "Value" "500mA M205"
+			(at 231.14 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12847,7 +12946,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuseholder_Clip-5x20mm_Eaton_1A5601-01_Inline_P20.80x6.76mm_D1.70mm_Horizontal"
-			(at 233.68 187.198 90)
+			(at 231.14 187.198 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12856,7 +12955,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 185.42 0)
+			(at 231.14 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12865,7 +12964,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 233.68 185.42 0)
+			(at 231.14 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14814,6 +14913,70 @@
 			(project ""
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
 					(reference "TP101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink")
+		(at 298.45 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78b60896-860a-4560-beb1-05663578eb5a")
+		(property "Reference" "HS701"
+			(at 302.26 173.3549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink"
+			(at 302.26 175.8949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RD-Heatsinks:Heatsink_6073B_19x9.5mm"
+			(at 298.7548 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 298.7548 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink"
+			(at 298.45 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(reference "HS701")
 					(unit 1)
 				)
 			)
@@ -18476,8 +18639,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 227.33 195.58 270)
+		(lib_id "Device:D_Zener")
+		(at 237.49 195.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18486,7 +18649,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2575d99-26d8-4dbd-92b5-c93625b296fa")
 		(property "Reference" "D701"
-			(at 229.87 194.3099 90)
+			(at 240.03 194.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18494,8 +18657,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "P4KE16AC"
-			(at 229.87 196.8499 90)
+		(property "Value" "P4KE16"
+			(at 240.03 196.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18503,8 +18666,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
-			(at 227.33 195.58 0)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 237.49 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18512,8 +18675,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.jaycar.com.au/p4ke-13-6v-16a-standoff-400w-ac/p/ZR1162"
-			(at 227.33 195.58 0)
+		(property "Datasheet" "~"
+			(at 237.49 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18521,8 +18684,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 227.33 195.58 0)
+		(property "Description" "DIODE TVS UNIDIRECTIONAL"
+			(at 237.49 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18531,7 +18694,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 227.33 195.58 90)
+			(at 237.49 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18540,7 +18703,7 @@
 			)
 		)
 		(property "SPN" ""
-			(at 227.33 195.58 90)
+			(at 237.49 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18549,7 +18712,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 227.33 195.58 90)
+			(at 237.49 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18558,7 +18721,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 227.33 195.58 90)
+			(at 237.49 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18573,7 +18736,7 @@
 			(uuid "a614a1be-3439-4c87-8ecb-d5067bf3573e")
 		)
 		(instances
-			(project ""
+			(project "Sensor-Node-2-Board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
 					(reference "D701")
 					(unit 1)

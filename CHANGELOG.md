@@ -2,23 +2,40 @@
 
 ## [Unreleased]
 
-## [1.0.0] - 2026-02-19
+### Changed
 
-### Fixed
-
--   Fixes
+-   N/A
 
 ### Added
 
--   Additions
-
-### Changed
-
--   Changes
+-   N/A
 
 ### Removed
 
--   Deletions
+-   N/A
+
+### Fixed
+
+-   Wiring of status LED to uC
+-   12V power supply protection improved
+
+## [1.0.0] - 2026-02-19
+
+### Changed
+
+-   N/A
+
+### Added
+
+-   Initial release
+
+### Removed
+
+-   N/A
+
+### Fixed
+
+-   N/A
 
 [Unreleased]: https://github.com/Reemuson/ELEC4740-Sensor-Node-2-Board/compare/1.0.0...HEAD
 
