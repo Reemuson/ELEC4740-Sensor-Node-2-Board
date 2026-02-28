@@ -1734,13 +1734,13 @@ AElFTkSuQmCC" alt="Logo" width="370" height="200">
  <td class="cell-info">
    <b>PCB</b>: Sensor-Node-2-Board<br>
    <b>Revision</b>: 1.0.0+ (Unreleased)<br>
-   <b>Date</b>: 2026-02-20T03:24:43+0000<br>
+   <b>Date</b>: 2026-02-28T02:21:59+0000<br>
    <b>KiCad Version</b>: 9.0.7<br>
  </td>
  <td class="cell-stats">
-   <b>Errors</b>: 0<br>
+   <b>Errors</b>: 7<br>
    <b>Warnings</b>: 26<br>
-   <b>Total</b>: 26<br>
+   <b>Total</b>: 33<br>
  </td>
 </tr>
 </table>
@@ -1755,134 +1755,181 @@ AElFTkSuQmCC" alt="Logo" width="370" height="200">
  </thead>
  <tbody>
   <tr id="0">
+   <td class="td-error">items_not_allowed</td>
+   <td>Items not allowed (keepout area)</td>
+   <td>@(204.56 mm, 174.0 mm): PTH pad 1 [+12V] of D703<br></td>
+  </tr>
+  <tr id="1">
+   <td class="td-error">clearance</td>
+   <td>Clearance violation (netclass 'GND' clearance 0.2000 mm; actual 0.0000 mm)</td>
+   <td>@(225.99 mm, 151.25 mm): Via [/SCHEMATIC/GPIO_SOUND] on L1 (Sig, PWR) - L2 (Sig, GND)<br>@(165.0 mm, 85.0 mm): Zone [GND] on L2 (Sig, GND), priority 3<br></td>
+  </tr>
+  <tr id="2">
+   <td class="td-error">hole_clearance</td>
+   <td>Hole clearance violation (board setup constraints hole clearance 0.2540 mm; actual 0.0905 mm)</td>
+   <td>@(225.99 mm, 151.25 mm): Via [/SCHEMATIC/GPIO_SOUND] on L1 (Sig, PWR) - L2 (Sig, GND)<br>@(165.0 mm, 85.0 mm): Zone [GND] on L2 (Sig, GND), priority 3<br></td>
+  </tr>
+  <tr id="3">
+   <td class="td-error">clearance</td>
+   <td>Clearance violation (rule 'Minimum Trace Width and Spacing (outer layer)' clearance 0.2000 mm; actual 0.1405 mm)</td>
+   <td>@(225.99 mm, 148.01 mm): Track [/SCHEMATIC/GPIO_SOUND] on L2 (Sig, GND), length 3.2400 mm<br>@(165.0 mm, 85.0 mm): Zone [GND] on L2 (Sig, GND), priority 3<br></td>
+  </tr>
+  <tr id="4">
+   <td class="td-error">clearance</td>
+   <td>Clearance violation (rule 'Minimum Trace Width and Spacing (outer layer)' clearance 0.2000 mm; actual 0.1505 mm)</td>
+   <td>@(226.0 mm, 151.0 mm): Track [/SCHEMATIC/GPIO_SOUND] on L2 (Sig, GND), length 0.2400 mm<br>@(165.0 mm, 85.0 mm): Zone [GND] on L2 (Sig, GND), priority 3<br></td>
+  </tr>
+  <tr id="5">
+   <td class="td-error">clearance</td>
+   <td>Clearance violation (rule 'Minimum Trace Width and Spacing (outer layer)' clearance 0.2000 mm; actual 0.1405 mm)</td>
+   <td>@(226.0 mm, 151.24 mm): Track [/SCHEMATIC/GPIO_SOUND] on L2 (Sig, GND), length 0.0141 mm<br>@(165.0 mm, 85.0 mm): Zone [GND] on L2 (Sig, GND), priority 3<br></td>
+  </tr>
+  <tr id="6">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'C_Disc_D5.0mm_W2.5mm_P5.00mm' does not match copy in library 'Capacitor_THT'.</td>
    <td>@(218.7 mm, 125.0 mm): Footprint C301<br></td>
   </tr>
-  <tr id="1">
+  <tr id="7">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'C_Disc_D5.0mm_W2.5mm_P5.00mm' does not match copy in library 'Capacitor_THT'.</td>
    <td>@(205.0 mm, 125.0 mm): Footprint C502<br></td>
   </tr>
-  <tr id="2">
+  <tr id="8">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'C_Disc_D5.0mm_W2.5mm_P5.00mm' does not match copy in library 'Capacitor_THT'.</td>
-   <td>@(212.5 mm, 180.0 mm): Footprint C703<br></td>
+   <td>@(217.5 mm, 179.75 mm): Footprint C703<br></td>
   </tr>
-  <tr id="3">
+  <tr id="9">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'C_Disc_D5.0mm_W2.5mm_P5.00mm' does not match copy in library 'Capacitor_THT'.</td>
-   <td>@(187.5 mm, 175.0 mm): Footprint C704<br></td>
+   <td>@(184.0 mm, 175.0 mm): Footprint C704<br></td>
   </tr>
-  <tr id="4">
+  <tr id="10">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'D_DO-201AD_P15.24mm_Horizontal' does not match copy in library 'Diode_THT'.</td>
    <td>@(192.5 mm, 168.74 mm): Footprint D702<br></td>
   </tr>
-  <tr id="5">
+  <tr id="11">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'PHOTON2' does not match copy in library 'Photon2'.</td>
    <td>@(210.67 mm, 151.23 mm): Footprint U601<br></td>
   </tr>
-  <tr id="6">
+  <tr id="12">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'Potentiometer_Bourns_3296W_Vertical' does not match copy in library 'Potentiometer_THT'.</td>
    <td>@(260.0 mm, 105.04 mm): Footprint RV201<br></td>
   </tr>
-  <tr id="7">
+  <tr id="13">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'CP_Radial_D5.0mm_P2.00mm' does not match copy in library 'Capacitor_THT'.</td>
-   <td>@(192.5 mm, 180.0 mm): Footprint C705<br></td>
+   <td>@(187.455112 mm, 179.75 mm): Footprint C705<br></td>
   </tr>
-  <tr id="8">
+  <tr id="14">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'Potentiometer_Omeg_PC16BU_Vertical' does not match copy in library 'Potentiometer_THT'.</td>
    <td>@(211.0 mm, 115.0 mm): Footprint RV501<br></td>
   </tr>
-  <tr id="9">
+  <tr id="15">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'SW_SPST_Omron_B3F-40xx' does not match copy in library 'Button_Switch_THT'.</td>
    <td>@(193.75 mm, 105.0 mm): Footprint SW501<br></td>
   </tr>
-  <tr id="10">
+  <tr id="16">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal' does not match copy in library 'TerminalBlock_Phoenix'.</td>
    <td>@(171.0 mm, 132.5 mm): Footprint J401<br></td>
   </tr>
-  <tr id="11">
+  <tr id="17">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'C_Disc_D5.0mm_W2.5mm_P5.00mm' does not match copy in library 'Capacitor_THT'.</td>
    <td>@(203.0 mm, 168.74 mm): Footprint C701<br></td>
   </tr>
-  <tr id="12">
+  <tr id="18">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'SO-8_3.9x4.9mm_P1.27mm' does not match copy in library 'Package_SO'.</td>
    <td>@(187.5 mm, 137.5 mm): Footprint Q401<br></td>
   </tr>
-  <tr id="13">
+  <tr id="19">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'CP_Radial_D5.0mm_P2.00mm' does not match copy in library 'Capacitor_THT'.</td>
    <td>@(232.5 mm, 140.0 mm): Footprint C102<br></td>
   </tr>
-  <tr id="14">
+  <tr id="20">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'LED_D5.0mm-3' does not match copy in library 'LED_THT'.</td>
    <td>@(175.04 mm, 100.0 mm): Footprint D501<br></td>
   </tr>
-  <tr id="15">
+  <tr id="21">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'CP_Radial_D5.0mm_P2.00mm' does not match copy in library 'Capacitor_THT'.</td>
    <td>@(180.0 mm, 127.5 mm): Footprint C401<br></td>
   </tr>
-  <tr id="16">
+  <tr id="22">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'D_DO-41_SOD81_P12.70mm_Horizontal' does not match copy in library 'Diode_THT'.</td>
-   <td>@(228.85 mm, 180.0 mm): Footprint D704<br></td>
+   <td>@(236.35 mm, 179.75 mm): Footprint D704<br></td>
   </tr>
-  <tr id="17">
+  <tr id="23">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'C_Disc_D5.0mm_W2.5mm_P5.00mm' does not match copy in library 'Capacitor_THT'.</td>
    <td>@(185.0 mm, 131.19 mm): Footprint C402<br></td>
   </tr>
-  <tr id="18">
+  <tr id="24">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'C_Disc_D5.0mm_W2.5mm_P5.00mm' does not match copy in library 'Capacitor_THT'.</td>
    <td>@(250.0 mm, 90.0 mm): Footprint C201<br></td>
   </tr>
-  <tr id="19">
+  <tr id="25">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'DIP-8_W7.62mm_Socket' does not match copy in library 'Package_DIP'.</td>
    <td>@(238.69 mm, 90.0 mm): Footprint U201<br></td>
   </tr>
-  <tr id="20">
+  <tr id="26">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'TO-220-3_Vertical' does not match copy in library 'Package_TO_SOT_THT'.</td>
-   <td>@(203.29 mm, 180.0 mm): Footprint U701<br></td>
+   <td>@(203.29 mm, 179.75 mm): Footprint U701<br></td>
   </tr>
-  <tr id="21">
+  <tr id="27">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'PinHeader_1x02_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.</td>
    <td>@(222.54 mm, 105.0 mm): Footprint TH301<br></td>
   </tr>
-  <tr id="22">
+  <tr id="28">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'C_Disc_D5.0mm_W2.5mm_P5.00mm' does not match copy in library 'Capacitor_THT'.</td>
    <td>@(231.35 mm, 93.81 mm): Footprint C202<br></td>
   </tr>
-  <tr id="23">
+  <tr id="29">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'CP_Radial_D5.0mm_P2.00mm' does not match copy in library 'Capacitor_THT'.</td>
    <td>@(248.85 mm, 115.0 mm): Footprint C103<br></td>
   </tr>
-  <tr id="24">
+  <tr id="30">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal' does not match copy in library 'TerminalBlock_Phoenix'.</td>
    <td>@(171.0 mm, 167.5 mm): Footprint J702<br></td>
   </tr>
-  <tr id="25">
+  <tr id="31">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'C_Disc_D5.0mm_W2.5mm_P5.00mm' does not match copy in library 'Capacitor_THT'.</td>
    <td>@(181.25 mm, 111.25 mm): Footprint C501<br></td>
+  </tr>
+ </tbody>
+</table>
+<p class="subtitle">Unconnected items</p>
+<table class="content-table">
+ <thead>
+  <tr>
+   <th>Type</th>
+   <th>Description</th>
+   <th>Details</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr id="32">
+   <td class="td-error">unconnected_items</td>
+   <td>Missing connection between items</td>
+   <td>@(184.25 mm, 148.75 mm): Zone [/SCHEMATIC/+12V_FUSED] on L1 (Sig, PWR), priority 2<br>@(192.5 mm, 149.0 mm): PTH pad 1 [/SCHEMATIC/+12V_FUSED] of D701<br></td>
   </tr>
  </tbody>
 </table>

@@ -61,21 +61,43 @@
 	COPPER TO HOLE		0.254 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE		0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">3e27dbe</textvar>
+    <textvar name="GIT_HASH_PCB">08dd1ab</textvar>
     <textvar name="GIT_HASH_SCH">9d7cd56</textvar>
     <textvar name="GIT_URL">https://github.com/Reemuson/ELEC4740-Sensor-Node-2-Board</textvar>
     <textvar name="PROJECT_NAME">ELEC4740</textvar>
-    <textvar name="RELEASE_BODY_1.0.0"/>
+    <textvar name="RELEASE_BODY_1.0.0">___________________________________
+
+Changed
+
+-   N/A
+
+___________________________________
+
+Added
+
+-   Initial release
+
+___________________________________
+
+Removed
+
+-   N/A
+
+___________________________________
+
+Fixed
+
+-   N/A</textvar>
     <textvar name="RELEASE_BODY_1.0.1"/>
     <textvar name="RELEASE_BODY_1.0.2"/>
-    <textvar name="RELEASE_BODY_1.1.0"/>
+    <textvar name="RELEASE_BODY_1.1.0">Version 1.1.0 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">19-Feb-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-02-19</textvar>
-    <textvar name="RELEASE_TITLE_1.0.0"/>
+    <textvar name="RELEASE_DATE">28-Feb-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-02-28</textvar>
+    <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-02-19</textvar>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
-    <textvar name="RELEASE_TITLE_1.1.0"/>
+    <textvar name="RELEASE_TITLE_1.1.0">Version 1.1.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="REVISION">1.0.0+ (Unreleased)</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
@@ -698,27 +720,27 @@
       <tstamps>ea6232fa-21b0-49eb-bde5-2b2df58afea9</tstamps>
     </comp>
     <comp ref="D701">
-      <value>P4KE16AC</value>
-      <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
-      <datasheet>https://www.jaycar.com.au/p4ke-13-6v-16a-standoff-400w-ac/p/ZR1162</datasheet>
-      <description>Bidirectional transient-voltage-suppression diode</description>
+      <value>P4KE16</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>DIODE TVS UNIDIRECTIONAL</description>
       <fields>
         <field name="Manufacturer"/>
         <field name="SPN"/>
         <field name="Supplier"/>
         <field name="Dielectric"/>
-        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</field>
-        <field name="Datasheet">https://www.jaycar.com.au/p4ke-13-6v-16a-standoff-400w-ac/p/ZR1162</field>
-        <field name="Description">Bidirectional transient-voltage-suppression diode</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">DIODE TVS UNIDIRECTIONAL</field>
       </fields>
-      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
       <property name="Manufacturer" value=""/>
       <property name="SPN" value=""/>
       <property name="Supplier" value=""/>
       <property name="Dielectric" value=""/>
       <property name="Sheetname" value="SCHEMATIC"/>
       <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
-      <property name="ki_keywords" value="diode TVS thyrector"/>
+      <property name="ki_keywords" value="diode"/>
       <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
       <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
       <tstamps>d2575d99-26d8-4dbd-92b5-c93625b296fa</tstamps>
@@ -806,7 +828,7 @@
       <tstamps>2aee5346-4982-4fb9-9855-3b77cded8d94</tstamps>
     </comp>
     <comp ref="F701">
-      <value>1A M205</value>
+      <value>500mA M205</value>
       <footprint>Fuse:Fuseholder_Clip-5x20mm_Eaton_1A5601-01_Inline_P20.80x6.76mm_D1.70mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <description>Fuse</description>
@@ -1124,9 +1146,27 @@
       <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
       <tstamps>55cf5afe-cd67-43bc-9858-2ad7353bab96</tstamps>
     </comp>
+    <comp ref="HS701">
+      <value>Heatsink</value>
+      <footprint>RD-Heatsinks:Heatsink_6073B_19x9.5mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Heatsink</description>
+      <fields>
+        <field name="Footprint">RD-Heatsinks:Heatsink_6073B_19x9.5mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Heatsink</field>
+      </fields>
+      <libsource lib="Mechanical" part="Heatsink" description="Heatsink"/>
+      <property name="Sheetname" value="SCHEMATIC"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="thermal heat temperature"/>
+      <property name="ki_fp_filters" value="Heatsink_*"/>
+      <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>78b60896-860a-4560-beb1-05663578eb5a</tstamps>
+    </comp>
     <comp ref="ID901">
       <value>BOARD_STACKUP_MARKER</value>
-      <footprint>RD-Symbols-Silkscreen:STACKUP_ID_2L_SML</footprint>
+      <footprint>RD-Symbols-Silkscreen:STACKUP_ID_2L</footprint>
       <description>PCB stackup layer identification marker (non-electrical)</description>
       <fields>
         <field name="Arrow Price/Stock"/>
@@ -1141,7 +1181,7 @@
         <field name="SPN"/>
         <field name="Supplier"/>
         <field name="Dielectric"/>
-        <field name="Footprint">RD-Symbols-Silkscreen:STACKUP_ID_2L_SML</field>
+        <field name="Footprint">RD-Symbols-Silkscreen:STACKUP_ID_2L</field>
         <field name="Datasheet"/>
         <field name="Description">PCB stackup layer identification marker (non-electrical)</field>
       </fields>
@@ -2022,7 +2062,7 @@
       <property name="ki_keywords" value="cmp open collector"/>
       <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*"/>
       <sheetpath names="/SCHEMATIC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
-      <tstamps>37ba182b-993c-4cc3-bc50-f13113295261 36d5d3c4-bbcd-4232-aaf0-a3dc30e92bbc 30121282-8d05-4dc3-8a0c-11c3f84145af</tstamps>
+      <tstamps>36d5d3c4-bbcd-4232-aaf0-a3dc30e92bbc 37ba182b-993c-4cc3-bc50-f13113295261 30121282-8d05-4dc3-8a0c-11c3f84145af</tstamps>
     </comp>
     <comp ref="U601">
       <value>Photon 2</value>
@@ -2195,8 +2235,8 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="D_TVS">
-      <description>Bidirectional transient-voltage-suppression diode</description>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
       <docs>~</docs>
       <footprints>
         <fp>TO-???*</fp>
@@ -2206,14 +2246,14 @@
       </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">D_TVS</field>
+        <field name="Value">D_Zener</field>
         <field name="Footprint"/>
         <field name="Datasheet">~</field>
-        <field name="Description">Bidirectional transient-voltage-suppression diode</field>
+        <field name="Description">Zener diode</field>
       </fields>
       <pins>
-        <pin num="1" name="A1" type="passive"/>
-        <pin num="2" name="A2" type="passive"/>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="Fuse">
@@ -2439,6 +2479,20 @@
         <field name="Description">Fiducial Marker</field>
       </fields>
     </libpart>
+    <libpart lib="Mechanical" part="Heatsink">
+      <description>Heatsink</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Heatsink_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">HS</field>
+        <field name="Value">Heatsink</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Heatsink</field>
+      </fields>
+    </libpart>
     <libpart lib="Mechanical" part="MountingHole_Pad">
       <description>Mounting Hole with connection</description>
       <docs>~</docs>
@@ -2662,11 +2716,11 @@
       <node ref="U701" pin="3" pinfunction="OUT" pintype="power_out"/>
     </net>
     <net code="5" name="/SCHEMATIC/+12V_FUSED" class="Default">
+      <node ref="D701" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D702" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="F701" pin="2" pintype="passive"/>
     </net>
     <net code="6" name="/SCHEMATIC/+12V_IN" class="Default">
-      <node ref="D701" pin="1" pinfunction="A1" pintype="passive"/>
       <node ref="F701" pin="1" pintype="passive"/>
       <node ref="J701" pin="1" pintype="passive"/>
       <node ref="J702" pin="1" pinfunction="Pin_1" pintype="passive"/>
@@ -2733,11 +2787,11 @@
     </net>
     <net code="18" name="/SCHEMATIC/LED_GRN" class="Default">
       <node ref="R502" pin="2" pintype="passive"/>
-      <node ref="U601" pin="15" pinfunction="D8" pintype="output"/>
+      <node ref="U601" pin="20" pinfunction="D3" pintype="bidirectional"/>
     </net>
     <net code="19" name="/SCHEMATIC/LED_RED" class="Default">
       <node ref="R501" pin="1" pintype="passive"/>
-      <node ref="U601" pin="14" pinfunction="D9" pintype="input"/>
+      <node ref="U601" pin="21" pinfunction="D4" pintype="bidirectional"/>
     </net>
     <net code="20" name="/SCHEMATIC/MIC" class="Default">
       <node ref="C101" pin="1" pintype="passive"/>
@@ -2784,7 +2838,7 @@
       <node ref="C704" pin="1" pintype="passive"/>
       <node ref="C705" pin="2" pintype="passive"/>
       <node ref="D501" pin="2" pinfunction="K" pintype="input"/>
-      <node ref="D701" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="D701" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="H901" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H902" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H903" pin="1" pinfunction="1" pintype="input"/>
@@ -2832,56 +2886,56 @@
     <net code="33" name="unconnected-(U601-A0-Pad5)" class="Default">
       <node ref="U601" pin="5" pinfunction="A0" pintype="input+no_connect"/>
     </net>
-    <net code="34" name="unconnected-(U601-D3-Pad20)" class="Default">
-      <node ref="U601" pin="20" pinfunction="D3" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="35" name="unconnected-(U601-D4-Pad21)" class="Default">
-      <node ref="U601" pin="21" pinfunction="D4" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="36" name="unconnected-(U601-D5-Pad22)" class="Default">
+    <net code="34" name="unconnected-(U601-D5-Pad22)" class="Default">
       <node ref="U601" pin="22" pinfunction="D5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="37" name="unconnected-(U601-D6-Pad23)" class="Default">
+    <net code="35" name="unconnected-(U601-D6-Pad23)" class="Default">
       <node ref="U601" pin="23" pinfunction="D6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="38" name="unconnected-(U601-D7-Pad24)" class="Default">
+    <net code="36" name="unconnected-(U601-D7-Pad24)" class="Default">
       <node ref="U601" pin="24" pinfunction="D7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="39" name="unconnected-(U601-D10-Pad25)" class="Default">
+    <net code="37" name="unconnected-(U601-D10-Pad25)" class="Default">
       <node ref="U601" pin="25" pinfunction="D10" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="40" name="unconnected-(U601-EN-Pad27)" class="Default">
+    <net code="38" name="unconnected-(U601-EN-Pad27)" class="Default">
       <node ref="U601" pin="27" pinfunction="EN" pintype="input+no_connect"/>
     </net>
-    <net code="41" name="unconnected-(U601-LI+-Pad28)" class="Default">
+    <net code="39" name="unconnected-(U601-LI+-Pad28)" class="Default">
       <node ref="U601" pin="28" pinfunction="LI+" pintype="power_out+no_connect"/>
     </net>
-    <net code="42" name="unconnected-(U601-MI-Pad13)" class="Default">
+    <net code="40" name="unconnected-(U601-MI-Pad13)" class="Default">
       <node ref="U601" pin="13" pinfunction="MI" pintype="input+no_connect"/>
     </net>
-    <net code="43" name="unconnected-(U601-MO-Pad12)" class="Default">
+    <net code="41" name="unconnected-(U601-MO-Pad12)" class="Default">
       <node ref="U601" pin="12" pinfunction="MO" pintype="output+no_connect"/>
     </net>
-    <net code="44" name="unconnected-(U601-MODE-Pad3)" class="Default">
+    <net code="42" name="unconnected-(U601-MODE-Pad3)" class="Default">
       <node ref="U601" pin="3" pinfunction="MODE" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="45" name="unconnected-(U601-NC-Pad16)" class="Default">
+    <net code="43" name="unconnected-(U601-NC-Pad16)" class="Default">
       <node ref="U601" pin="16" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="46" name="unconnected-(U601-RST-Pad1)" class="Default">
+    <net code="44" name="unconnected-(U601-RST-Pad1)" class="Default">
       <node ref="U601" pin="1" pinfunction="RST" pintype="input+no_connect"/>
     </net>
-    <net code="47" name="unconnected-(U601-S3-Pad10)" class="Default">
+    <net code="45" name="unconnected-(U601-RX-Pad14)" class="Default">
+      <node ref="U601" pin="14" pinfunction="D9" pintype="input+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U601-S3-Pad10)" class="Default">
       <node ref="U601" pin="10" pinfunction="S3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="48" name="unconnected-(U601-SCK-Pad11)" class="Default">
+    <net code="47" name="unconnected-(U601-SCK-Pad11)" class="Default">
       <node ref="U601" pin="11" pinfunction="SCK" pintype="output+no_connect"/>
     </net>
-    <net code="49" name="unconnected-(U601-SCL~-Pad18)" class="Default">
+    <net code="48" name="unconnected-(U601-SCL~-Pad18)" class="Default">
       <node ref="U601" pin="18" pinfunction="SCL~" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="50" name="unconnected-(U601-SDA-Pad17)" class="Default">
+    <net code="49" name="unconnected-(U601-SDA-Pad17)" class="Default">
       <node ref="U601" pin="17" pinfunction="SDA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U601-TX-Pad15)" class="Default">
+      <node ref="U601" pin="15" pinfunction="D8" pintype="output+no_connect"/>
     </net>
   </nets>
 </export>
