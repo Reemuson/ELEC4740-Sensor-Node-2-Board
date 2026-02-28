@@ -61,8 +61,8 @@
 	COPPER TO HOLE		0.254 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE		0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">08dd1ab</textvar>
-    <textvar name="GIT_HASH_SCH">9d7cd56</textvar>
+    <textvar name="GIT_HASH_PCB">c565728</textvar>
+    <textvar name="GIT_HASH_SCH">c565728</textvar>
     <textvar name="GIT_URL">https://github.com/Reemuson/ELEC4740-Sensor-Node-2-Board</textvar>
     <textvar name="PROJECT_NAME">ELEC4740</textvar>
     <textvar name="RELEASE_BODY_1.0.0">___________________________________
@@ -90,16 +90,40 @@ Fixed
 -   N/A</textvar>
     <textvar name="RELEASE_BODY_1.0.1"/>
     <textvar name="RELEASE_BODY_1.0.2"/>
-    <textvar name="RELEASE_BODY_1.1.0">Version 1.1.0 not found.</textvar>
+    <textvar name="RELEASE_BODY_1.1.0">___________________________________
+
+Changed
+
+-   N/A
+
+___________________________________
+
+Added
+
+-   N/A
+
+___________________________________
+
+Removed
+
+-   N/A
+
+___________________________________
+
+Fixed
+
+-   Wiring of status LED to uC
+
+-   12V power supply protection improved</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="RELEASE_DATE">28-Feb-2026</textvar>
     <textvar name="RELEASE_DATE_NUM">2026-02-28</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-02-19</textvar>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
-    <textvar name="RELEASE_TITLE_1.1.0">Version 1.1.0 not found.</textvar>
+    <textvar name="RELEASE_TITLE_1.1.0">Version 1.1.0 - 2026-02-28</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="REVISION">1.0.0+ (Unreleased)</textvar>
+    <textvar name="REVISION">1.1.0</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
     <textvar name="SHEET_NAME_10">......................................</textvar>
     <textvar name="SHEET_NAME_11">......................................</textvar>
@@ -145,7 +169,7 @@ Fixed
       <title_block>
         <title/>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>1.1.0</rev>
         <date>Date2</date>
         <source>Sensor-Node-2-Board.kicad_sch</source>
         <comment number="1" value=""/>
@@ -163,7 +187,7 @@ Fixed
       <title_block>
         <title>SCHEMATIC</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>1.1.0</rev>
         <date>Date2</date>
         <source>Project Architecture.kicad_sch</source>
         <comment number="1" value=""/>
@@ -181,7 +205,7 @@ Fixed
       <title_block>
         <title>REVISION HISTORY</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>1.1.0</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
         <comment number="1" value=""/>
